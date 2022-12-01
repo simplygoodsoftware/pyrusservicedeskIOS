@@ -1,0 +1,11 @@
+framework module PyrusServiceDesk {
+  umbrella header "PyrusServiceDesk.h"
+
+  export *
+  module * { export * }
+}
+
+module PyrusServiceDesk.Swift {
+  header "PyrusServiceDesk-Swift.h"
+  requires objc
+}
