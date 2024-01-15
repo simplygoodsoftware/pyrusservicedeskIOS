@@ -1,20 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PyrusServiceDesk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import Compression
+import DeveloperToolsSupport
 import Foundation
 import ImageIO
 import MobileCoreServices
 import Photos
 @_exported import PyrusServiceDesk
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ServiceDeskConfiguration : ObjectiveC.NSObject {
   public var welcomeMessage: Swift.String? {
@@ -104,7 +107,7 @@ public enum VerticalAlignment {
 }
 @objc public protocol FileChooser {
   @objc var label: Swift.String { get set }
-  @objc weak var chooserDelegate: FileChooserDelegate? { get set }
+  @objc weak var chooserDelegate: (any FileChooserDelegate)? { get set }
 }
 @objc public protocol FileChooserDelegate {
   @objc func didEndWithSuccess(_ data: Foundation.Data?, url: Foundation.URL?)
@@ -125,23 +128,23 @@ public enum VerticalAlignment {
 @_inheritsConvenienceInitializers @objc public class PyrusServiceDesk : ObjectiveC.NSObject {
   public static var PSD_CLOSED_NOTIFICATION_NAME: Swift.String
   public static var trustedUrls: [Swift.String]?
-  @objc public static func setPushToken(_ token: Swift.String?, completion: @escaping (Swift.Error?) -> Swift.Void)
-  @objc public static func start(on viewController: UIKit.UIViewController, onStopCallback: OnStopCallback? = nil)
-  @objc public static func start(on viewController: UIKit.UIViewController, configuration: ServiceDeskConfiguration?, onStopCallback: OnStopCallback? = nil)
-  @objc public static func start(on viewController: UIKit.UIViewController, configuration: ServiceDeskConfiguration?, completion: (() -> Swift.Void)? = nil, onStopCallback: OnStopCallback? = nil)
-  @objc public static func start(with configuration: ServiceDeskConfiguration?) -> UIKit.UINavigationController?
+  @objc public static func setPushToken(_ token: Swift.String?, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public static func start(on viewController: UIKit.UIViewController, onStopCallback: (any OnStopCallback)? = nil)
+  @objc public static func start(on viewController: UIKit.UIViewController, configuration: ServiceDeskConfiguration?, onStopCallback: (any OnStopCallback)? = nil)
+  @objc public static func start(on viewController: UIKit.UIViewController, configuration: ServiceDeskConfiguration?, completion: (() -> Swift.Void)? = nil, onStopCallback: (any OnStopCallback)? = nil)
+  @objc public static func start(with configuration: ServiceDeskConfiguration?, onStopCallback: (any OnStopCallback)? = nil) -> UIKit.UINavigationController?
   @objc public static func stop()
   @objc public static var onAuthorizationFailed: (() -> Swift.Void)?
-  @objc public static func subscribeToReplies(_ subscriber: NewReplySubscriber?)
-  @objc public static func unsubscribeFromReplies(_ subscriber: NewReplySubscriber?)
-  @objc public static func subscribeToGogEvents(_ subscriber: LogEvents)
+  @objc public static func subscribeToReplies(_ subscriber: (any NewReplySubscriber)?)
+  @objc public static func unsubscribeFromReplies(_ subscriber: (any NewReplySubscriber)?)
+  @objc public static func subscribeToGogEvents(_ subscriber: any LogEvents)
   @objc public static func createWith(_ clientId: Swift.String?, domain: Swift.String? = nil, loggingEnabled: Swift.Bool = false, authorizationToken: Swift.String? = nil)
   @objc public static func createWith(_ clientId: Swift.String?, reset: Swift.Bool, domain: Swift.String? = nil, loggingEnabled: Swift.Bool = false, authorizationToken: Swift.String? = nil)
   @objc public static func createWith(_ clientId: Swift.String?, userId: Swift.String?, securityKey: Swift.String?, domain: Swift.String? = nil, loggingEnabled: Swift.Bool = false, authorizationToken: Swift.String? = nil)
-  @objc public static func refresh(onError: ((Swift.Error?) -> Swift.Void)? = nil)
+  @objc public static func refresh(onError: (((any Swift.Error)?) -> Swift.Void)? = nil)
   @objc public static func refreshFromPush(messageId: Swift.Int)
   @objc public static func present(_ viewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
-  @objc public static func registerFileChooser(_ chooser: (UIKit.UIViewController & FileChooser)?)
+  @objc public static func registerFileChooser(_ chooser: (any UIKit.UIViewController & FileChooser)?)
   @objc override dynamic public init()
   @objc deinit
 }
