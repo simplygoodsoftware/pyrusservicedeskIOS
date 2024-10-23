@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/PyrusServiceDesk-Swift.h</key>
 		<data>
-		3WJRQSVFfIH3O6tR6irJRbIYqYU=
+		YZm0wV1gnWxszmg8uroVmSe/toU=
 		</data>
 		<key>Headers/PyrusServiceDesk.h</key>
 		<data>
@@ -74,51 +74,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NdrDdpPEjPSBnyjsYBkYaa2y1dM=
+		bXxWRSg1DaC5qTRRQ0el6yiX/tY=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qsijtDGXZnCXYWANVgfBHRfMPP4=
+		YqFn3ktDxu7z16YD4R5xXM0Ux+o=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TbpwUwSB/OhHqBt0s/CLVWGRLLw=
+		/PSpzwrNd8+BQDLFZk57Dyhar9A=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vQEs77nQ+9Noy/+xfDJWeRCqORY=
+		+91Kmg1JKwPLQgFnD76gfS5iNbg=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TbpwUwSB/OhHqBt0s/CLVWGRLLw=
+		/PSpzwrNd8+BQDLFZk57Dyhar9A=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iYmz+zdd2lLVboDaOjCCTvRvMdk=
+		BsiIUH0yKKnWE3Dx+Lil88znesg=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qsijtDGXZnCXYWANVgfBHRfMPP4=
+		YqFn3ktDxu7z16YD4R5xXM0Ux+o=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IdmD6VDaNYOJlVzqsW2Lqo5k6EQ=
+		snv4TkZrhxPR5yygpjwiqp5cQ1o=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aCcBI6Ke3XCikj3HGaO40YaKddo=
+		V0fPyrxI8AMXGkriPtTWmQvcQkY=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IdmD6VDaNYOJlVzqsW2Lqo5k6EQ=
+		snv4TkZrhxPR5yygpjwiqp5cQ1o=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pLAx3zuQ9zgNYixdkNe2+eMHNZc=
+		w965D7RwWl0Uzds+FLfe/RL7ve0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		qrJu9VSYPs5qmFqf5GDmbLkzQWQ=
+		HjB0u/X81n1CJ8PrFTUeF7kNqzg=
 		</data>
 		<key>Refresh.png</key>
 		<data>
@@ -690,6 +690,18 @@
 		<data>
 		d9WpITxWXjrdeygni9FM+plzsx0=
 		</data>
+		<key>linkIcon.png</key>
+		<data>
+		3gDnwSu7a0ZqY+wGZkhZ9JWcsrs=
+		</data>
+		<key>linkIcon@2x.png</key>
+		<data>
+		DhOinmi9oOe4hAOrjYCiXwMTqbE=
+		</data>
+		<key>linkIcon@3x.png</key>
+		<data>
+		m2TWHjp9aNoeJsIJOnzdU3LIDHg=
+		</data>
 		<key>messagePlaceholder.png</key>
 		<data>
 		hoZcoTgUCvUxpTNs6z+czJc0C3g=
@@ -702,15 +714,6 @@
 		<data>
 		GNe+/kRj59TEi1R8C1Xy5VHabEs=
 		</data>
-		<key>ru-RU.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CPLs54i1V+6wU0DJWdLlE3u1NGY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -892,11 +895,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3WJRQSVFfIH3O6tR6irJRbIYqYU=
+			YZm0wV1gnWxszmg8uroVmSe/toU=
 			</data>
 			<key>hash2</key>
 			<data>
-			rVeqXxQYgGRgCMq9P4XiBY7HUz/6eYhtI/1Huyy89fk=
+			Yyf5hDIzsynBsvZSAS2ypQoCXstabiOuylYXc2ZMhiI=
 			</data>
 		</dict>
 		<key>Headers/PyrusServiceDesk.h</key>
@@ -914,121 +917,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qsijtDGXZnCXYWANVgfBHRfMPP4=
+			YqFn3ktDxu7z16YD4R5xXM0Ux+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			3b1uF6RERGGMTtabzWtEYHNnW3e2+nw7sSeDuBjY+b0=
+			86Uxg9tbVAQ7UW7HjgRdR11NskCMyFMtz2MDTuOivBg=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbpwUwSB/OhHqBt0s/CLVWGRLLw=
+			/PSpzwrNd8+BQDLFZk57Dyhar9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			0l4rAds6EyTWnlKd31SqM/qumei2NLcg5cMIEtE9FTI=
+			OLfQGtxis7JQQch8e4jfkuzTNHiFwQyMzdy0dR11b9I=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vQEs77nQ+9Noy/+xfDJWeRCqORY=
+			+91Kmg1JKwPLQgFnD76gfS5iNbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1L+R5TesJ1bTvfwBgaurE8A46fCt+0VfeZ/xBKXNjug=
+			HnCTBNMLmSmRWHhBlVx9YkauXcwSPgiTKHXddZS2JSg=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbpwUwSB/OhHqBt0s/CLVWGRLLw=
+			/PSpzwrNd8+BQDLFZk57Dyhar9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			0l4rAds6EyTWnlKd31SqM/qumei2NLcg5cMIEtE9FTI=
+			OLfQGtxis7JQQch8e4jfkuzTNHiFwQyMzdy0dR11b9I=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iYmz+zdd2lLVboDaOjCCTvRvMdk=
+			BsiIUH0yKKnWE3Dx+Lil88znesg=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQLBt3RiKJvBXM248R9Sn4B371WXJiyYiLIYoW7lDI4=
+			AGVFjHTYxu9x/02IcV3KGUteRJ2dalvdAUngKMeCcyY=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qsijtDGXZnCXYWANVgfBHRfMPP4=
+			YqFn3ktDxu7z16YD4R5xXM0Ux+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			3b1uF6RERGGMTtabzWtEYHNnW3e2+nw7sSeDuBjY+b0=
+			86Uxg9tbVAQ7UW7HjgRdR11NskCMyFMtz2MDTuOivBg=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IdmD6VDaNYOJlVzqsW2Lqo5k6EQ=
+			snv4TkZrhxPR5yygpjwiqp5cQ1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			FEjztowhTUkokZHn+gTosPuL1bJ8BWxMQlF4p0srS6c=
+			HY0YJWkHd/mKu8uitGdDXLMa2z+ncfWFk9JfCLajHbY=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aCcBI6Ke3XCikj3HGaO40YaKddo=
+			V0fPyrxI8AMXGkriPtTWmQvcQkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MY8fzDUr5Zf4V43HKZHaFJenkiIpNS5XbVt5cLvd6L4=
+			ZekZwKPAA3opTWW7hxme1tF1uxUEhGN4Ooi6FROUg20=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IdmD6VDaNYOJlVzqsW2Lqo5k6EQ=
+			snv4TkZrhxPR5yygpjwiqp5cQ1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			FEjztowhTUkokZHn+gTosPuL1bJ8BWxMQlF4p0srS6c=
+			HY0YJWkHd/mKu8uitGdDXLMa2z+ncfWFk9JfCLajHbY=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pLAx3zuQ9zgNYixdkNe2+eMHNZc=
+			w965D7RwWl0Uzds+FLfe/RL7ve0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GNOy42FUewyYG+uIlVaTmh312tklHjQzlDQREZHme+Q=
+			78P9ot8FqRRDp1xOoMVi9Y3xiCgIVpyg+xW4tFYC7j8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qrJu9VSYPs5qmFqf5GDmbLkzQWQ=
+			HjB0u/X81n1CJ8PrFTUeF7kNqzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BMhaeg3KG47WQpDdRkPFL/51vFrxW706tLQcvHbuT4w=
+			uK1V7bwmnNfdX6P5gztCdoFGKoC20aZXCZR1c6+2MMA=
 			</data>
 		</dict>
 		<key>Refresh.png</key>
@@ -2575,6 +2578,39 @@
 			1EZJmZ9KzyLUDBsNbqFdxq9WBUYIXv27NIuTv8BBEQg=
 			</data>
 		</dict>
+		<key>linkIcon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3gDnwSu7a0ZqY+wGZkhZ9JWcsrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			DcQUlSnFds5PTQsNYrseWvhhbJvyCunobg1N/qQOEAE=
+			</data>
+		</dict>
+		<key>linkIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DhOinmi9oOe4hAOrjYCiXwMTqbE=
+			</data>
+			<key>hash2</key>
+			<data>
+			77NBkJzLZRsHJfsqMltIW8FyxaOg1Ai2+V6VgNn2uFI=
+			</data>
+		</dict>
+		<key>linkIcon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m2TWHjp9aNoeJsIJOnzdU3LIDHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ASy9Ij7NTxbNwo+avmJIC4xXam6bgfKsmIb6UDJImRo=
+			</data>
+		</dict>
 		<key>messagePlaceholder.png</key>
 		<dict>
 			<key>hash</key>
@@ -2607,19 +2643,6 @@
 			<data>
 			hMcBz8PuEwZ/oR0N7SYjdxIEB9Dw0bt712SIN0fgMWo=
 			</data>
-		</dict>
-		<key>ru-RU.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CPLs54i1V+6wU0DJWdLlE3u1NGY=
-			</data>
-			<key>hash2</key>
-			<data>
-			omRGF+qlpDE6MPfeF8UKIJK/fdADbgr2Xjgx8D7BqOA=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
