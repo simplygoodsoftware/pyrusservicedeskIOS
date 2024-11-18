@@ -475,6 +475,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 /// Scrolls chat to bottom, starts refreshing chat and shows fake message from support is psd is open.
 + (void)refreshFromPushWithMessageId:(NSInteger)messageId;
 + (void)present:(UIViewController * _Nonnull)viewController animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// Setting name of user. If name is not setted it il be default (“Guest”)
+/// \param userName A name to display in pyrus task.
+///
++ (void)setUser:(NSString * _Nullable)userName;
 /// Save viewController with FileChooser interface. Use to add custom row in attachment-add-menu
 /// \param chooser (FileChooser & UIViewController) to present.
 ///
@@ -1070,6 +1074,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 /// Scrolls chat to bottom, starts refreshing chat and shows fake message from support is psd is open.
 + (void)refreshFromPushWithMessageId:(NSInteger)messageId;
 + (void)present:(UIViewController * _Nonnull)viewController animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// Setting name of user. If name is not setted it il be default (“Guest”)
+/// \param userName A name to display in pyrus task.
+///
++ (void)setUser:(NSString * _Nullable)userName;
 /// Save viewController with FileChooser interface. Use to add custom row in attachment-add-menu
 /// \param chooser (FileChooser & UIViewController) to present.
 ///

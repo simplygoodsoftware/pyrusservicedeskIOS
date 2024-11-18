@@ -165,6 +165,7 @@ public enum VerticalAlignment {
   @objc public static func refresh(onError: (((any Swift.Error)?) -> Swift.Void)? = nil)
   @objc public static func refreshFromPush(messageId: Swift.Int)
   @objc public static func present(_ viewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc public static func setUser(_ userName: Swift.String?)
   @objc public static func registerFileChooser(_ chooser: (any UIKit.UIViewController & FileChooser)?)
   @objc override dynamic public init()
   @objc deinit

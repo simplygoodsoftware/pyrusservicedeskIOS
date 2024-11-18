@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XU35pWvR8ZX8q/70whsYByX6zwo=
+		Rkxkh+CwRCby4TMruW+ruSOKLV4=
 		</data>
 		<key>Back.png</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/PyrusServiceDesk-Swift.h</key>
 		<data>
-		kgW4PodRHd8P25TLKFJHjBkk5S8=
+		F3LyyueZIYzZJ4cxP5Rez98bKFo=
 		</data>
 		<key>Headers/PyrusServiceDesk.h</key>
 		<data>
@@ -82,43 +82,43 @@
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hyhS1TwlkoXeFusjL1OR9qktjUk=
+		J3mu2VbaqxXe3P2j0t1lhF0wcHM=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kALfxDCFuPyBUtwElvGbMcDO7ag=
+		z/ycKpl8wuVefS0K13cehPZZQ7Y=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hsuUkTAD5nhducqjOsBbItNp024=
+		VKe/gg/LZXFqTJs8MWfDJvI1zec=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kALfxDCFuPyBUtwElvGbMcDO7ag=
+		z/ycKpl8wuVefS0K13cehPZZQ7Y=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GPyXJV+nGzzTn1H557aQng050ik=
+		zl1hDel4l9qCSgoURECA3BjMNfc=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hyhS1TwlkoXeFusjL1OR9qktjUk=
+		J3mu2VbaqxXe3P2j0t1lhF0wcHM=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zGKEDOBgM2sEUBT0KIsNRcfG9k0=
+		r6dnTq/LeER67bcim9eAFqApUpc=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jHUGO/9EGhWdMpAlsp0l8KRls30=
+		dH/6G9gVP+cPPzCE76uKOfeDolg=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zGKEDOBgM2sEUBT0KIsNRcfG9k0=
+		r6dnTq/LeER67bcim9eAFqApUpc=
 		</data>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JVsO1AKgiW9D5YEo/oz+8QCHAYQ=
+		fAyUJJYvZ51dw+f1fOglV0r0AD0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -159,6 +159,18 @@
 		<key>SupportIcon@3x.png</key>
 		<data>
 		zbY2R9Q5oyKM9Z+S4K9VImgPss0=
+		</data>
+		<key>chats.png</key>
+		<data>
+		BF6D74TIOuQM2URIgSsppEdOl8A=
+		</data>
+		<key>chats@2x.png</key>
+		<data>
+		i3l/p56UMjWzMIZVc1Ua0C5A1Jo=
+		</data>
+		<key>chats@3x.png</key>
+		<data>
+		cGjrEvqYJ6L4GVoNYaUm4Fk9trQ=
 		</data>
 		<key>clock-dark-01@3x.png</key>
 		<data>
@@ -600,6 +612,18 @@
 		<data>
 		zIXbqGkb3BQ4lTqHvH3wgrQvJZo=
 		</data>
+		<key>cross.png</key>
+		<data>
+		MJiLtwNB99sJsfWiPV71a7wwBPA=
+		</data>
+		<key>cross@2x.png</key>
+		<data>
+		MJiLtwNB99sJsfWiPV71a7wwBPA=
+		</data>
+		<key>cross@3x.png</key>
+		<data>
+		MJiLtwNB99sJsfWiPV71a7wwBPA=
+		</data>
 		<key>dotted_line.png</key>
 		<data>
 		I2K7qUZSSiPl9e2iEd4mA+JwjlU=
@@ -642,6 +666,30 @@
 		<data>
 		shXM0nL6uzBlYioKVZgeTj8ZQtw=
 		</data>
+		<key>fillFilter.png</key>
+		<data>
+		sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+		</data>
+		<key>fillFilter@2x.png</key>
+		<data>
+		sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+		</data>
+		<key>fillFilter@3x.png</key>
+		<data>
+		sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+		</data>
+		<key>filter.png</key>
+		<data>
+		EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+		</data>
+		<key>filter@2x.png</key>
+		<data>
+		EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+		</data>
+		<key>filter@3x.png</key>
+		<data>
+		EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+		</data>
 		<key>ic_menu_close_clear_cancel.png</key>
 		<data>
 		XujAGAIFcuF7pq3J2FKFVOky3GA=
@@ -669,6 +717,18 @@
 		<key>icn_error@3x.png</key>
 		<data>
 		pV+nS0NFa+7YZ6Alfoyf+btTnPY=
+		</data>
+		<key>iiko.png</key>
+		<data>
+		nqxk+iq+KbuIGX61PnsCBLNlzS8=
+		</data>
+		<key>iiko@2x.png</key>
+		<data>
+		5NKPBgdeV/hj3YRlC59ruLx58Bg=
+		</data>
+		<key>iiko@3x.png</key>
+		<data>
+		bnaUL2mtMW/xf1yF7H6SSLg/NDg=
 		</data>
 		<key>landscape_dark@1x.png</key>
 		<data>
@@ -767,11 +827,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XU35pWvR8ZX8q/70whsYByX6zwo=
+			Rkxkh+CwRCby4TMruW+ruSOKLV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			j9VO27NC8R5AUsLI1w2LbHodM7pzhIG9iyaohH+EBp0=
+			Csnx8Fb5T5DblI62SH/bGxHk7t03LRaLugKLGlDv7TQ=
 			</data>
 		</dict>
 		<key>Back.png</key>
@@ -910,11 +970,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kgW4PodRHd8P25TLKFJHjBkk5S8=
+			F3LyyueZIYzZJ4cxP5Rez98bKFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			QbmI1dOZfnCl/T3SIbpjHqtkYMqBU3r/6rUzMvScbdM=
+			cTCPLUGIEVqnha9XJ+/7y3vLrP0Vverl6l+jUA3FxFM=
 			</data>
 		</dict>
 		<key>Headers/PyrusServiceDesk.h</key>
@@ -932,110 +992,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hyhS1TwlkoXeFusjL1OR9qktjUk=
+			J3mu2VbaqxXe3P2j0t1lhF0wcHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eg1zNsBTBpcubHF6aEkZ7RhMO/hK5qfckhx4rk8WtXA=
+			ZP2E4viTpDt/I9Klc74dEF5g+IW8V8nKkYzBeuj+EjU=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kALfxDCFuPyBUtwElvGbMcDO7ag=
+			z/ycKpl8wuVefS0K13cehPZZQ7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			AcYfjsIcQiDC7L6hhjLBnIvf9bkhJsq+DTkRtTe0Kg4=
+			tqc/zDnMf9Hx9cJXD+iEcp5u8RszdATqoBfC5WWhE/0=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hsuUkTAD5nhducqjOsBbItNp024=
+			VKe/gg/LZXFqTJs8MWfDJvI1zec=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hp3AeeeAfryvLFTMxK95Op/nD8B2BA5lj8wLVs5SP+s=
+			nsc5duFgl0bU32RpEtcYnCeYIm2TpuWZDWhQh4rsBlo=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kALfxDCFuPyBUtwElvGbMcDO7ag=
+			z/ycKpl8wuVefS0K13cehPZZQ7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			AcYfjsIcQiDC7L6hhjLBnIvf9bkhJsq+DTkRtTe0Kg4=
+			tqc/zDnMf9Hx9cJXD+iEcp5u8RszdATqoBfC5WWhE/0=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GPyXJV+nGzzTn1H557aQng050ik=
+			zl1hDel4l9qCSgoURECA3BjMNfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			BIFHrQga8+piTKpnMWS2RZUJqdSqrE4GQOiXHnV4HzM=
+			A+2vEJXTJ34rI3ulT4hJbNVwJBUjTprcQ9521it983o=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hyhS1TwlkoXeFusjL1OR9qktjUk=
+			J3mu2VbaqxXe3P2j0t1lhF0wcHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eg1zNsBTBpcubHF6aEkZ7RhMO/hK5qfckhx4rk8WtXA=
+			ZP2E4viTpDt/I9Klc74dEF5g+IW8V8nKkYzBeuj+EjU=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zGKEDOBgM2sEUBT0KIsNRcfG9k0=
+			r6dnTq/LeER67bcim9eAFqApUpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vv+YQNTpc+SldtksnUslTz98bR88uNXg/t4lE8CCYhY=
+			i5Myt9bQ7roKcb2K4n+20nn7dp1DGcmDaXHRXaoCqtM=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jHUGO/9EGhWdMpAlsp0l8KRls30=
+			dH/6G9gVP+cPPzCE76uKOfeDolg=
 			</data>
 			<key>hash2</key>
 			<data>
-			oIsOerRN1rPKv5MW2wt/oUmkGsx11B75MzSXYAOKPsM=
+			0mTDFLhZb1ACUYfKvXxVeX9GLMU3pAPfgYBPc1AY8pA=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zGKEDOBgM2sEUBT0KIsNRcfG9k0=
+			r6dnTq/LeER67bcim9eAFqApUpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vv+YQNTpc+SldtksnUslTz98bR88uNXg/t4lE8CCYhY=
+			i5Myt9bQ7roKcb2K4n+20nn7dp1DGcmDaXHRXaoCqtM=
 			</data>
 		</dict>
 		<key>Modules/PyrusServiceDesk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JVsO1AKgiW9D5YEo/oz+8QCHAYQ=
+			fAyUJJYvZ51dw+f1fOglV0r0AD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			n+JsMe+o4VHN9SGNTw5I+92vODCX77sD+2hxth8IoYI=
+			DEWQeFwRlBbSTx6TF1TLW5EgPWFXjaXO6B4BUExW244=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1146,6 +1206,39 @@
 			<key>hash2</key>
 			<data>
 			qvSUfd1x7v412zS4QS1YQI/S/nj+17u3NNLSe4pT7RM=
+			</data>
+		</dict>
+		<key>chats.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BF6D74TIOuQM2URIgSsppEdOl8A=
+			</data>
+			<key>hash2</key>
+			<data>
+			1WnrUTwqPrJvJj2NZUlsNTGOzm4B1WKa88Dm5HxMS0E=
+			</data>
+		</dict>
+		<key>chats@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i3l/p56UMjWzMIZVc1Ua0C5A1Jo=
+			</data>
+			<key>hash2</key>
+			<data>
+			X7IbVJG90vLwGcTABJob21jiT1tyEF9/sVTkjC5oPSM=
+			</data>
+		</dict>
+		<key>chats@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cGjrEvqYJ6L4GVoNYaUm4Fk9trQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			2b6uPiu3t/flVBx23M6QAbO/CdTyuWyCTjgNrNyQk7w=
 			</data>
 		</dict>
 		<key>clock-dark-01@3x.png</key>
@@ -2358,6 +2451,39 @@
 			R0y+ORm99Qy0OOjX0xy1i2KA1ZXHzbZjpcB9ZBA1mek=
 			</data>
 		</dict>
+		<key>cross.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJiLtwNB99sJsfWiPV71a7wwBPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JiLCicopvYSsLPx8tlRH/iWJa3OyvonPnK0jdxb6Jds=
+			</data>
+		</dict>
+		<key>cross@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJiLtwNB99sJsfWiPV71a7wwBPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JiLCicopvYSsLPx8tlRH/iWJa3OyvonPnK0jdxb6Jds=
+			</data>
+		</dict>
+		<key>cross@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJiLtwNB99sJsfWiPV71a7wwBPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JiLCicopvYSsLPx8tlRH/iWJa3OyvonPnK0jdxb6Jds=
+			</data>
+		</dict>
 		<key>dotted_line.png</key>
 		<dict>
 			<key>hash</key>
@@ -2450,6 +2576,72 @@
 			i///SYjip2KqcMp80QQnBsyRJrq8gc8ZRU/ikkgTO5c=
 			</data>
 		</dict>
+		<key>fillFilter.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hY5JpcxhydxGeOD9BNW0shyabJTl8+geEtLx1iVd2nY=
+			</data>
+		</dict>
+		<key>fillFilter@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hY5JpcxhydxGeOD9BNW0shyabJTl8+geEtLx1iVd2nY=
+			</data>
+		</dict>
+		<key>fillFilter@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sc+wxL8rsXa1nJO5Ozi+U1H1YOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hY5JpcxhydxGeOD9BNW0shyabJTl8+geEtLx1iVd2nY=
+			</data>
+		</dict>
+		<key>filter.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7X1j2vjbn5sUfFbGCi7BAvFp859RLmhAbKGpDQJKvdY=
+			</data>
+		</dict>
+		<key>filter@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7X1j2vjbn5sUfFbGCi7BAvFp859RLmhAbKGpDQJKvdY=
+			</data>
+		</dict>
+		<key>filter@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EGy5RvBL/Xdj9xD3+MdJcX1iEPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7X1j2vjbn5sUfFbGCi7BAvFp859RLmhAbKGpDQJKvdY=
+			</data>
+		</dict>
 		<key>ic_menu_close_clear_cancel.png</key>
 		<dict>
 			<key>hash</key>
@@ -2525,6 +2717,39 @@
 			<key>hash2</key>
 			<data>
 			AF8UjtJDeR4zC1J5lh9ERae6TcmusnyQWa2dwOioN+0=
+			</data>
+		</dict>
+		<key>iiko.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nqxk+iq+KbuIGX61PnsCBLNlzS8=
+			</data>
+			<key>hash2</key>
+			<data>
+			nJjgXkvwK2apbYBAn7KCU0Hwk+um0VBDTUyh6LkqlVQ=
+			</data>
+		</dict>
+		<key>iiko@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5NKPBgdeV/hj3YRlC59ruLx58Bg=
+			</data>
+			<key>hash2</key>
+			<data>
+			UjNPveCwSj3sNXmaTjDsvtaPEmp4wmhS/bmCn0cKvKg=
+			</data>
+		</dict>
+		<key>iiko@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bnaUL2mtMW/xf1yF7H6SSLg/NDg=
+			</data>
+			<key>hash2</key>
+			<data>
+			AOId/sI3zfaKdwsLHcYsG2biecN2J9dXqCcxgULT+yo=
 			</data>
 		</dict>
 		<key>landscape_dark@1x.png</key>
