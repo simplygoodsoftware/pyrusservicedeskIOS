@@ -13165,91 +13165,91 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1533,
       "length": 11,
       "value": "\"paperclip\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1653,
+      "offset": 1661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1881,
+      "offset": 1889,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1957,
+      "offset": 1965,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2014,
+      "offset": 2022,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2063,
+      "offset": 2071,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6244,
+      "offset": 6252,
       "length": 4,
       "value": "13.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6323,
+      "offset": 6331,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6402,
+      "offset": 6410,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6480,
+      "offset": 6488,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6563,
+      "offset": 6571,
       "length": 9,
       "value": "\"#60666C\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6637,
       "length": 9,
       "value": "\"#9199A1\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/Cell\/PSDChatInfoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6697,
+      "offset": 6705,
       "length": 9,
       "value": "\"#FFB049\""
     },
@@ -13340,14 +13340,14 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 1972,
       "length": 12,
       "value": "\"fillFilter\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 2011,
       "length": 8,
       "value": "\"filter\""
     },
@@ -13361,42 +13361,42 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2503,
+      "offset": 2527,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2667,
+      "offset": 2691,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2719,
+      "offset": 2743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2909,
+      "offset": 2933,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2938,
+      "offset": 2962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/chats\/View\/PSDChatsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3684,
+      "offset": 3708,
       "length": 4,
       "value": "true"
     },
