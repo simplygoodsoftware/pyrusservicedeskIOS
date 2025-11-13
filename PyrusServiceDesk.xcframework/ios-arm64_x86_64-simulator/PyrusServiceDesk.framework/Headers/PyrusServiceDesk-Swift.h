@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -301,7 +302,212 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk19CacheLoadedCallBack_")
+@protocol CacheLoadedCallBack
+- (void)cacheLoaded;
+@end
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("DBAttachment")
+@interface DBAttachment : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSData;
 @class NSString;
+@class DBMessage;
+
+@interface DBAttachment (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic) BOOL canOpen;
+@property (nonatomic, copy) NSData * _Nullable data;
+@property (nonatomic) BOOL isImage;
+@property (nonatomic) BOOL isVideo;
+@property (nonatomic, copy) NSString * _Nullable localId;
+@property (nonatomic, copy) NSString * _Nullable localPath;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, copy) NSString * _Nullable serverIdentifier;
+@property (nonatomic) int64_t size;
+@property (nonatomic) float uploadingProgress;
+@property (nonatomic, strong) DBMessage * _Nullable message;
+@end
+
+
+SWIFT_CLASS_NAMED("DBAttachmentData")
+@interface DBAttachmentData : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class DBTicketCommand;
+
+@interface DBAttachmentData (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable guid;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) int32_t type;
+@property (nonatomic, strong) DBTicketCommand * _Nullable ticketCommand;
+@end
+
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk6DBChat")
+@interface DBChat : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSIndexSet;
+@class NSOrderedSet;
+
+@interface DBChat (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBMessage * _Nonnull)value inMessagesAtIndex:(NSInteger)idx;
+- (void)removeObjectFromMessagesAtIndex:(NSInteger)idx;
+- (void)insertMessages:(NSArray<DBMessage *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeMessagesAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInMessagesAtIndex:(NSInteger)idx withObject:(DBMessage * _Nonnull)value;
+- (void)replaceMessagesAtIndexes:(NSIndexSet * _Nonnull)indexes withMessages:(NSArray<DBMessage *> * _Nonnull)values;
+- (void)addMessagesObject:(DBMessage * _Nonnull)value;
+- (void)removeMessagesObject:(DBMessage * _Nonnull)value;
+- (void)addMessages:(NSOrderedSet * _Nonnull)values;
+- (void)removeMessages:(NSOrderedSet * _Nonnull)values;
+@end
+
+@class NSDate;
+
+@interface DBChat (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic) int64_t chatId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic) BOOL isActive;
+@property (nonatomic) BOOL isRead;
+@property (nonatomic) int64_t lastReadedCommentId;
+@property (nonatomic) BOOL showRating;
+@property (nonatomic, copy) NSString * _Nullable showRatingText;
+@property (nonatomic, copy) NSString * _Nullable subject;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable messages;
+@end
+
+
+SWIFT_CLASS_NAMED("DBClient")
+@interface DBClient : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBClient (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appIcon;
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable descr;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) int16_t ratingSize;
+@property (nonatomic, copy) NSString * _Nullable ratingText;
+@property (nonatomic) int32_t ratingType;
+@property (nonatomic, copy) NSString * _Nullable welcomeMessage;
+@end
+
+
+SWIFT_CLASS_NAMED("DBMessage")
+@interface DBMessage : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBMessage (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBAttachment * _Nonnull)value inAttachmentsAtIndex:(NSInteger)idx;
+- (void)removeObjectFromAttachmentsAtIndex:(NSInteger)idx;
+- (void)insertAttachments:(NSArray<DBAttachment *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInAttachmentsAtIndex:(NSInteger)idx withObject:(DBAttachment * _Nonnull)value;
+- (void)replaceAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes withAttachments:(NSArray<DBAttachment *> * _Nonnull)values;
+- (void)addAttachmentsObject:(DBAttachment * _Nonnull)value;
+- (void)removeAttachmentsObject:(DBAttachment * _Nonnull)value;
+- (void)addAttachments:(NSOrderedSet * _Nonnull)values;
+- (void)removeAttachments:(NSOrderedSet * _Nonnull)values;
+@end
+
+
+@interface DBMessage (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable authorAvatarId;
+@property (nonatomic, copy) NSString * _Nullable authorId;
+@property (nonatomic, copy) NSString * _Nullable authorName;
+@property (nonatomic, copy) NSString * _Nullable clientId;
+@property (nonatomic, copy) NSString * _Nullable commandId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic) BOOL fromStorage;
+@property (nonatomic) BOOL isOutgoing;
+@property (nonatomic) BOOL isRatingMessage;
+@property (nonatomic) BOOL isWelcomeMessage;
+@property (nonatomic, copy) NSString * _Nullable messageId;
+@property (nonatomic) int32_t rating;
+@property (nonatomic) BOOL requestNewTicket;
+@property (nonatomic) int16_t state;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic) int64_t ticketId;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable attachments;
+@property (nonatomic, strong) DBChat * _Nullable chat;
+@end
+
+
+SWIFT_CLASS_NAMED("DBTicketCommand")
+@interface DBTicketCommand : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBTicketCommand (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBAttachmentData * _Nonnull)value inAttachmentsAtIndex:(NSInteger)idx;
+- (void)removeObjectFromAttachmentsAtIndex:(NSInteger)idx;
+- (void)insertAttachments:(NSArray<DBAttachmentData *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInAttachmentsAtIndex:(NSInteger)idx withObject:(DBAttachmentData * _Nonnull)value;
+- (void)replaceAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes withAttachments:(NSArray<DBAttachmentData *> * _Nonnull)values;
+- (void)addAttachmentsObject:(DBAttachmentData * _Nonnull)value;
+- (void)removeAttachmentsObject:(DBAttachmentData * _Nonnull)value;
+- (void)addAttachments:(NSOrderedSet * _Nonnull)values;
+- (void)removeAttachments:(NSOrderedSet * _Nonnull)values;
+@end
+
+
+@interface DBTicketCommand (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable authorId;
+@property (nonatomic, copy) NSString * _Nullable clientId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable message;
+@property (nonatomic) int64_t messageId;
+@property (nonatomic) int32_t rating;
+@property (nonatomic, copy) NSString * _Nullable ratingComment;
+@property (nonatomic) BOOL requestNewTicket;
+@property (nonatomic) int64_t ticketId;
+@property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic, copy) NSString * _Nullable tokenType;
+@property (nonatomic) int32_t type;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable attachments;
+@end
+
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk20DeniedAccessCallBack_")
+@protocol DeniedAccessCallBack
+- (void)deleteUsersWithUserIds:(NSArray<NSString *> * _Nonnull)userIds;
+@end
+
+@class PSDUserInfo;
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18ExtraUsersCallback_")
+@protocol ExtraUsersCallback
+- (void)addUserWithUser:(PSDUserInfo * _Nonnull)user;
+@end
+
 @protocol FileChooserDelegate;
 
 /// Interface with label(String) and chooserDelegate(FileChooserDelegate).
@@ -313,7 +519,6 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk11FileChooser_")
 @property (nonatomic, weak) id <FileChooserDelegate> _Nullable chooserDelegate;
 @end
 
-@class NSData;
 @class NSURL;
 
 /// Protocol to send status messages of completion.
@@ -340,6 +545,7 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk9LogEvents_")
 
 
 
+
 /// The protocol for sending a notification that a new message has arrived
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @protocol NewReplySubscriber
@@ -358,11 +564,20 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @end
 
 
+
 /// The protocol for getting a notification that PyrusServiceDesk was closed
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk14OnStopCallback_")
 @protocol OnStopCallback
 /// The callback that PyrusServiceDesk was closed
 - (void)onStop;
+@end
+
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk13PSDClientInfo")
+@interface PSDClientInfo : NSObject
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSCoder;
@@ -375,24 +590,40 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk11PSDInfoView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk11PSDUserInfo")
+@interface PSDUserInfo : NSObject
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtCC16PyrusServiceDesk11PSDUserInfo10AuthorInfo")
+@interface AuthorInfo : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class UIViewController;
 @class ServiceDeskConfiguration;
 @class UINavigationController;
 
 SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 @interface PyrusServiceDesk : NSObject
++ (BOOL)openTicketWithTicketId:(NSInteger)ticketId userId:(NSString * _Nonnull)userId messageId:(NSInteger)messageId SWIFT_WARN_UNUSED_RESULT;
 /// Send device id to server
 /// \param token String with device id
 ///
 /// \param completion Error. Not nil if success. See error.localizedDescription to understand why its happened
 ///
-+ (void)setPushToken:(NSString * _Nullable)token completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
++ (void)setPushToken:(NSString * _Nullable)token users:(NSArray<PSDUserInfo *> * _Nullable)users completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment voiceMessages:(BOOL)voiceMessages;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
@@ -400,7 +631,15 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback deniedAccessCallback:(id <DeniedAccessCallBack> _Nullable)deniedAccessCallback animated:(BOOL)animated sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages;
+/// Show chat
+/// \param viewController ViewController that must present chat
+///
+/// \param configuration ServiceDeskConfiguration object or nil. ServiceDeskConfiguration is object that create custom interface: theme color,welcome message, image for support’s avatar and chat title for navigation bar title. If nil, the default design will be used.
+///
+/// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
+///
++ (UINavigationController * _Nullable)getStartOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback deniedAccessCallback:(id <DeniedAccessCallBack> _Nullable)deniedAccessCallback extraUsersCallback:(id <ExtraUsersCallback> _Nullable)extraUsersCallback animated:(BOOL)animated voiceMessages:(BOOL)voiceMessages SWIFT_WARN_UNUSED_RESULT;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
@@ -410,13 +649,13 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration completion:(void (^ _Nullable)(void))completion onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration completion:(void (^ _Nullable)(void))completion onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages;
 /// Show chat
 /// \param configuration ServiceDeskConfiguration object or nil. ServiceDeskConfiguration is object that create custom interface: theme color,welcome message, image for support’s avatar and chat title for navigation bar title. If nil, the default design will be used.
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (UINavigationController * _Nullable)startWith:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment SWIFT_WARN_UNUSED_RESULT;
++ (UINavigationController * _Nullable)startWith:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages SWIFT_WARN_UNUSED_RESULT;
 /// Close PyrusServiceDesk
 + (void)stop;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuthorizationFailed)(void);)
@@ -427,6 +666,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 /// Unsubscribe [subscriber] from alerts for new messages from chat support.
 + (void)unsubscribeFromReplies:(id <NewReplySubscriber> _Nullable)subscriber;
 + (void)subscribeToGogEvents:(id <LogEvents> _Nonnull)subscriber;
++ (void)cleanCashe;
 /// Init PyrusServiceDesk with new clientId.
 /// \param clientId clientId using for all requests. If clientId not setted PyrusServiceDesk Controller will not be created
 ///
@@ -434,7 +674,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 ///
 /// \param loggingEnabled If true, then the library will write logs, and they can be sent as a file to chat by clicking the “Send Library Logs” button in the menu under the “+” sign. 
 ///
-+ (void)createWith:(NSString * _Nullable)clientId domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
++ (void)createWith:(NSString * _Nullable)clientId clientName:(NSString * _Nullable)clientName multichats:(BOOL)multichats authorId:(NSString * _Nullable)authorId userName:(NSString * _Nullable)userName additionalUsers:(NSArray<PSDUserInfo *> * _Nonnull)additionalUsers domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
 + (void)setFieldsDataWithFieldsData:(NSDictionary<NSString *, NSString *> * _Nullable)fieldsData;
 /// Init PyrusServiceDesk with new clientId.
 /// \param clientId clientId using for all requests. If clientId not setted PyrusServiceDesk Controller will not be created
@@ -456,11 +696,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 ///
 /// \param loggingEnabled If true, then the library will write logs, and they can be sent as a file to chat by clicking the “Send Library Logs” button in the menu under the “+” sign. 
 ///
-+ (void)createWith:(NSString * _Nullable)clientId userId:(NSString * _Nullable)userId securityKey:(NSString * _Nullable)securityKey domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
++ (void)createWith:(NSString * _Nullable)clientId userId:(NSString * _Nullable)userId securityKey:(NSString * _Nullable)securityKey userName:(NSString * _Nullable)userName multichats:(BOOL)multichats authorId:(NSString * _Nullable)authorId additionalUsers:(NSArray<PSDUserInfo *> * _Nonnull)additionalUsers domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
 + (void)refreshOnError:(void (^ _Nullable)(NSError * _Nullable))onError;
 /// Scrolls chat to bottom, starts refreshing chat and shows fake message from support is psd is open.
 + (void)refreshFromPushWithMessageId:(NSInteger)messageId;
 + (void)present:(UIViewController * _Nonnull)viewController animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// Setting name of user. If name is not setted it il be default (“Guest”)
+/// \param userName A name to display in pyrus task.
+///
++ (void)setUser:(NSString * _Nullable)userName;
 /// Save viewController with FileChooser interface. Use to add custom row in attachment-add-menu
 /// \param chooser (FileChooser & UIViewController) to present.
 ///
@@ -497,6 +741,9 @@ SWIFT_CLASS_NAMED("Builder")
 - (ServiceDeskConfigurationBuilder * _Nonnull)setChatTitleView:(UIView * _Nullable)chatTitleView;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setCustomRightBarButtonItem:(UIBarButtonItem * _Nullable)customRightBarButtonItem;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setCustomLeftBarButtonItem:(UIBarButtonItem * _Nullable)customLeftBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setChatsLeftBarButtonItem:(UIBarButtonItem * _Nullable)customLeftBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setChatsRightBarButtonItem:(UIView * _Nullable)customRightBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setTitleHandler:(void (^ _Nullable)(void))titleHandler;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setInfoView:(PSDInfoView * _Nullable)infoView;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setStatusBarStyle:(UIStatusBarStyle)barStyle darkBarStyle:(UIStatusBarStyle)darkBarStyle;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setKeyboardAppearance:(UIKeyboardAppearance)keyboardAppearance darkKeyboardAppearance:(UIKeyboardAppearance)darkKeyboardAppearance;
@@ -524,6 +771,14 @@ SWIFT_CLASS_NAMED("Builder")
 
 
 
+
+
+
+
+
+
+
+
 @interface UIColor (SWIFT_EXTENSION(PyrusServiceDesk))
 /// Может принимать в себя HEX в разных форматах и если правильно прописать формат - создастся соответствующий объект UIColor
 /// Что очевидно, можно передавать как 3, так и 4 канальные цвета
@@ -533,6 +788,34 @@ SWIFT_CLASS_NAMED("Builder")
 ///
 - (nullable instancetype)initWithHex:(NSString * _Nullable)hex;
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -851,6 +1134,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -875,7 +1159,212 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk19CacheLoadedCallBack_")
+@protocol CacheLoadedCallBack
+- (void)cacheLoaded;
+@end
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("DBAttachment")
+@interface DBAttachment : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSData;
 @class NSString;
+@class DBMessage;
+
+@interface DBAttachment (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic) BOOL canOpen;
+@property (nonatomic, copy) NSData * _Nullable data;
+@property (nonatomic) BOOL isImage;
+@property (nonatomic) BOOL isVideo;
+@property (nonatomic, copy) NSString * _Nullable localId;
+@property (nonatomic, copy) NSString * _Nullable localPath;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, copy) NSString * _Nullable serverIdentifier;
+@property (nonatomic) int64_t size;
+@property (nonatomic) float uploadingProgress;
+@property (nonatomic, strong) DBMessage * _Nullable message;
+@end
+
+
+SWIFT_CLASS_NAMED("DBAttachmentData")
+@interface DBAttachmentData : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class DBTicketCommand;
+
+@interface DBAttachmentData (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable guid;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) int32_t type;
+@property (nonatomic, strong) DBTicketCommand * _Nullable ticketCommand;
+@end
+
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk6DBChat")
+@interface DBChat : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSIndexSet;
+@class NSOrderedSet;
+
+@interface DBChat (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBMessage * _Nonnull)value inMessagesAtIndex:(NSInteger)idx;
+- (void)removeObjectFromMessagesAtIndex:(NSInteger)idx;
+- (void)insertMessages:(NSArray<DBMessage *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeMessagesAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInMessagesAtIndex:(NSInteger)idx withObject:(DBMessage * _Nonnull)value;
+- (void)replaceMessagesAtIndexes:(NSIndexSet * _Nonnull)indexes withMessages:(NSArray<DBMessage *> * _Nonnull)values;
+- (void)addMessagesObject:(DBMessage * _Nonnull)value;
+- (void)removeMessagesObject:(DBMessage * _Nonnull)value;
+- (void)addMessages:(NSOrderedSet * _Nonnull)values;
+- (void)removeMessages:(NSOrderedSet * _Nonnull)values;
+@end
+
+@class NSDate;
+
+@interface DBChat (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic) int64_t chatId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic) BOOL isActive;
+@property (nonatomic) BOOL isRead;
+@property (nonatomic) int64_t lastReadedCommentId;
+@property (nonatomic) BOOL showRating;
+@property (nonatomic, copy) NSString * _Nullable showRatingText;
+@property (nonatomic, copy) NSString * _Nullable subject;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable messages;
+@end
+
+
+SWIFT_CLASS_NAMED("DBClient")
+@interface DBClient : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBClient (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appIcon;
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable descr;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) int16_t ratingSize;
+@property (nonatomic, copy) NSString * _Nullable ratingText;
+@property (nonatomic) int32_t ratingType;
+@property (nonatomic, copy) NSString * _Nullable welcomeMessage;
+@end
+
+
+SWIFT_CLASS_NAMED("DBMessage")
+@interface DBMessage : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBMessage (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBAttachment * _Nonnull)value inAttachmentsAtIndex:(NSInteger)idx;
+- (void)removeObjectFromAttachmentsAtIndex:(NSInteger)idx;
+- (void)insertAttachments:(NSArray<DBAttachment *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInAttachmentsAtIndex:(NSInteger)idx withObject:(DBAttachment * _Nonnull)value;
+- (void)replaceAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes withAttachments:(NSArray<DBAttachment *> * _Nonnull)values;
+- (void)addAttachmentsObject:(DBAttachment * _Nonnull)value;
+- (void)removeAttachmentsObject:(DBAttachment * _Nonnull)value;
+- (void)addAttachments:(NSOrderedSet * _Nonnull)values;
+- (void)removeAttachments:(NSOrderedSet * _Nonnull)values;
+@end
+
+
+@interface DBMessage (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable authorAvatarId;
+@property (nonatomic, copy) NSString * _Nullable authorId;
+@property (nonatomic, copy) NSString * _Nullable authorName;
+@property (nonatomic, copy) NSString * _Nullable clientId;
+@property (nonatomic, copy) NSString * _Nullable commandId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic) BOOL fromStorage;
+@property (nonatomic) BOOL isOutgoing;
+@property (nonatomic) BOOL isRatingMessage;
+@property (nonatomic) BOOL isWelcomeMessage;
+@property (nonatomic, copy) NSString * _Nullable messageId;
+@property (nonatomic) int32_t rating;
+@property (nonatomic) BOOL requestNewTicket;
+@property (nonatomic) int16_t state;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic) int64_t ticketId;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable attachments;
+@property (nonatomic, strong) DBChat * _Nullable chat;
+@end
+
+
+SWIFT_CLASS_NAMED("DBTicketCommand")
+@interface DBTicketCommand : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface DBTicketCommand (SWIFT_EXTENSION(PyrusServiceDesk))
+- (void)insertObject:(DBAttachmentData * _Nonnull)value inAttachmentsAtIndex:(NSInteger)idx;
+- (void)removeObjectFromAttachmentsAtIndex:(NSInteger)idx;
+- (void)insertAttachments:(NSArray<DBAttachmentData *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInAttachmentsAtIndex:(NSInteger)idx withObject:(DBAttachmentData * _Nonnull)value;
+- (void)replaceAttachmentsAtIndexes:(NSIndexSet * _Nonnull)indexes withAttachments:(NSArray<DBAttachmentData *> * _Nonnull)values;
+- (void)addAttachmentsObject:(DBAttachmentData * _Nonnull)value;
+- (void)removeAttachmentsObject:(DBAttachmentData * _Nonnull)value;
+- (void)addAttachments:(NSOrderedSet * _Nonnull)values;
+- (void)removeAttachments:(NSOrderedSet * _Nonnull)values;
+@end
+
+
+@interface DBTicketCommand (SWIFT_EXTENSION(PyrusServiceDesk))
+@property (nonatomic, copy) NSString * _Nullable appId;
+@property (nonatomic, copy) NSString * _Nullable authorId;
+@property (nonatomic, copy) NSString * _Nullable clientId;
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable message;
+@property (nonatomic) int64_t messageId;
+@property (nonatomic) int32_t rating;
+@property (nonatomic, copy) NSString * _Nullable ratingComment;
+@property (nonatomic) BOOL requestNewTicket;
+@property (nonatomic) int64_t ticketId;
+@property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic, copy) NSString * _Nullable tokenType;
+@property (nonatomic) int32_t type;
+@property (nonatomic, copy) NSString * _Nullable userId;
+@property (nonatomic, strong) NSOrderedSet * _Nullable attachments;
+@end
+
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk20DeniedAccessCallBack_")
+@protocol DeniedAccessCallBack
+- (void)deleteUsersWithUserIds:(NSArray<NSString *> * _Nonnull)userIds;
+@end
+
+@class PSDUserInfo;
+
+SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18ExtraUsersCallback_")
+@protocol ExtraUsersCallback
+- (void)addUserWithUser:(PSDUserInfo * _Nonnull)user;
+@end
+
 @protocol FileChooserDelegate;
 
 /// Interface with label(String) and chooserDelegate(FileChooserDelegate).
@@ -887,7 +1376,6 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk11FileChooser_")
 @property (nonatomic, weak) id <FileChooserDelegate> _Nullable chooserDelegate;
 @end
 
-@class NSData;
 @class NSURL;
 
 /// Protocol to send status messages of completion.
@@ -914,6 +1402,7 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk9LogEvents_")
 
 
 
+
 /// The protocol for sending a notification that a new message has arrived
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @protocol NewReplySubscriber
@@ -932,11 +1421,20 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @end
 
 
+
 /// The protocol for getting a notification that PyrusServiceDesk was closed
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk14OnStopCallback_")
 @protocol OnStopCallback
 /// The callback that PyrusServiceDesk was closed
 - (void)onStop;
+@end
+
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk13PSDClientInfo")
+@interface PSDClientInfo : NSObject
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSCoder;
@@ -949,24 +1447,40 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk11PSDInfoView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC16PyrusServiceDesk11PSDUserInfo")
+@interface PSDUserInfo : NSObject
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtCC16PyrusServiceDesk11PSDUserInfo10AuthorInfo")
+@interface AuthorInfo : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class UIViewController;
 @class ServiceDeskConfiguration;
 @class UINavigationController;
 
 SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 @interface PyrusServiceDesk : NSObject
++ (BOOL)openTicketWithTicketId:(NSInteger)ticketId userId:(NSString * _Nonnull)userId messageId:(NSInteger)messageId SWIFT_WARN_UNUSED_RESULT;
 /// Send device id to server
 /// \param token String with device id
 ///
 /// \param completion Error. Not nil if success. See error.localizedDescription to understand why its happened
 ///
-+ (void)setPushToken:(NSString * _Nullable)token completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
++ (void)setPushToken:(NSString * _Nullable)token users:(NSArray<PSDUserInfo *> * _Nullable)users completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment voiceMessages:(BOOL)voiceMessages;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
@@ -974,7 +1488,15 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback deniedAccessCallback:(id <DeniedAccessCallBack> _Nullable)deniedAccessCallback animated:(BOOL)animated sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages;
+/// Show chat
+/// \param viewController ViewController that must present chat
+///
+/// \param configuration ServiceDeskConfiguration object or nil. ServiceDeskConfiguration is object that create custom interface: theme color,welcome message, image for support’s avatar and chat title for navigation bar title. If nil, the default design will be used.
+///
+/// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
+///
++ (UINavigationController * _Nullable)getStartOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback deniedAccessCallback:(id <DeniedAccessCallBack> _Nullable)deniedAccessCallback extraUsersCallback:(id <ExtraUsersCallback> _Nullable)extraUsersCallback animated:(BOOL)animated voiceMessages:(BOOL)voiceMessages SWIFT_WARN_UNUSED_RESULT;
 /// Show chat
 /// \param viewController ViewController that must present chat
 ///
@@ -984,13 +1506,13 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk16PyrusServiceDesk")
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration completion:(void (^ _Nullable)(void))completion onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment;
++ (void)startOn:(UIViewController * _Nonnull)viewController configuration:(ServiceDeskConfiguration * _Nullable)configuration completion:(void (^ _Nullable)(void))completion onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages;
 /// Show chat
 /// \param configuration ServiceDeskConfiguration object or nil. ServiceDeskConfiguration is object that create custom interface: theme color,welcome message, image for support’s avatar and chat title for navigation bar title. If nil, the default design will be used.
 ///
 /// \param onStopCallback OnStopCallback object or nil. OnStopCallback is object for getting a notification that PyrusServiceDesk was closed.
 ///
-+ (UINavigationController * _Nullable)startWith:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment SWIFT_WARN_UNUSED_RESULT;
++ (UINavigationController * _Nullable)startWith:(ServiceDeskConfiguration * _Nullable)configuration onStopCallback:(id <OnStopCallback> _Nullable)onStopCallback sendComment:(NSString * _Nullable)sendComment startWithPush:(BOOL)startWithPush voiceMessages:(BOOL)voiceMessages SWIFT_WARN_UNUSED_RESULT;
 /// Close PyrusServiceDesk
 + (void)stop;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuthorizationFailed)(void);)
@@ -1001,6 +1523,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 /// Unsubscribe [subscriber] from alerts for new messages from chat support.
 + (void)unsubscribeFromReplies:(id <NewReplySubscriber> _Nullable)subscriber;
 + (void)subscribeToGogEvents:(id <LogEvents> _Nonnull)subscriber;
++ (void)cleanCashe;
 /// Init PyrusServiceDesk with new clientId.
 /// \param clientId clientId using for all requests. If clientId not setted PyrusServiceDesk Controller will not be created
 ///
@@ -1008,7 +1531,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 ///
 /// \param loggingEnabled If true, then the library will write logs, and they can be sent as a file to chat by clicking the “Send Library Logs” button in the menu under the “+” sign. 
 ///
-+ (void)createWith:(NSString * _Nullable)clientId domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
++ (void)createWith:(NSString * _Nullable)clientId clientName:(NSString * _Nullable)clientName multichats:(BOOL)multichats authorId:(NSString * _Nullable)authorId userName:(NSString * _Nullable)userName additionalUsers:(NSArray<PSDUserInfo *> * _Nonnull)additionalUsers domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
 + (void)setFieldsDataWithFieldsData:(NSDictionary<NSString *, NSString *> * _Nullable)fieldsData;
 /// Init PyrusServiceDesk with new clientId.
 /// \param clientId clientId using for all requests. If clientId not setted PyrusServiceDesk Controller will not be created
@@ -1030,11 +1553,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onAuth
 ///
 /// \param loggingEnabled If true, then the library will write logs, and they can be sent as a file to chat by clicking the “Send Library Logs” button in the menu under the “+” sign. 
 ///
-+ (void)createWith:(NSString * _Nullable)clientId userId:(NSString * _Nullable)userId securityKey:(NSString * _Nullable)securityKey domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
++ (void)createWith:(NSString * _Nullable)clientId userId:(NSString * _Nullable)userId securityKey:(NSString * _Nullable)securityKey userName:(NSString * _Nullable)userName multichats:(BOOL)multichats authorId:(NSString * _Nullable)authorId additionalUsers:(NSArray<PSDUserInfo *> * _Nonnull)additionalUsers domain:(NSString * _Nullable)domain loggingEnabled:(BOOL)loggingEnabled authorizationToken:(NSString * _Nullable)authorizationToken;
 + (void)refreshOnError:(void (^ _Nullable)(NSError * _Nullable))onError;
 /// Scrolls chat to bottom, starts refreshing chat and shows fake message from support is psd is open.
 + (void)refreshFromPushWithMessageId:(NSInteger)messageId;
 + (void)present:(UIViewController * _Nonnull)viewController animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// Setting name of user. If name is not setted it il be default (“Guest”)
+/// \param userName A name to display in pyrus task.
+///
++ (void)setUser:(NSString * _Nullable)userName;
 /// Save viewController with FileChooser interface. Use to add custom row in attachment-add-menu
 /// \param chooser (FileChooser & UIViewController) to present.
 ///
@@ -1071,6 +1598,9 @@ SWIFT_CLASS_NAMED("Builder")
 - (ServiceDeskConfigurationBuilder * _Nonnull)setChatTitleView:(UIView * _Nullable)chatTitleView;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setCustomRightBarButtonItem:(UIBarButtonItem * _Nullable)customRightBarButtonItem;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setCustomLeftBarButtonItem:(UIBarButtonItem * _Nullable)customLeftBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setChatsLeftBarButtonItem:(UIBarButtonItem * _Nullable)customLeftBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setChatsRightBarButtonItem:(UIView * _Nullable)customRightBarButtonItem;
+- (ServiceDeskConfigurationBuilder * _Nonnull)setTitleHandler:(void (^ _Nullable)(void))titleHandler;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setInfoView:(PSDInfoView * _Nullable)infoView;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setStatusBarStyle:(UIStatusBarStyle)barStyle darkBarStyle:(UIStatusBarStyle)darkBarStyle;
 - (ServiceDeskConfigurationBuilder * _Nonnull)setKeyboardAppearance:(UIKeyboardAppearance)keyboardAppearance darkKeyboardAppearance:(UIKeyboardAppearance)darkKeyboardAppearance;
@@ -1098,6 +1628,14 @@ SWIFT_CLASS_NAMED("Builder")
 
 
 
+
+
+
+
+
+
+
+
 @interface UIColor (SWIFT_EXTENSION(PyrusServiceDesk))
 /// Может принимать в себя HEX в разных форматах и если правильно прописать формат - создастся соответствующий объект UIColor
 /// Что очевидно, можно передавать как 3, так и 4 канальные цвета
@@ -1107,6 +1645,34 @@ SWIFT_CLASS_NAMED("Builder")
 ///
 - (nullable instancetype)initWithHex:(NSString * _Nullable)hex;
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
