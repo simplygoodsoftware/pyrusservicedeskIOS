@@ -564,7 +564,6 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @end
 
 
-
 /// The protocol for getting a notification that PyrusServiceDesk was closed
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk14OnStopCallback_")
 @protocol OnStopCallback
@@ -774,11 +773,6 @@ SWIFT_CLASS_NAMED("Builder")
 
 
 
-
-
-
-
-
 @interface UIColor (SWIFT_EXTENSION(PyrusServiceDesk))
 /// Может принимать в себя HEX в разных форматах и если правильно прописать формат - создастся соответствующий объект UIColor
 /// Что очевидно, можно передавать как 3, так и 4 канальные цвета
@@ -788,11 +782,6 @@ SWIFT_CLASS_NAMED("Builder")
 ///
 - (nullable instancetype)initWithHex:(NSString * _Nullable)hex;
 @end
-
-
-
-
-
 
 
 
@@ -1421,7 +1410,6 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk18NewReplySubscriber_")
 @end
 
 
-
 /// The protocol for getting a notification that PyrusServiceDesk was closed
 SWIFT_PROTOCOL("_TtP16PyrusServiceDesk14OnStopCallback_")
 @protocol OnStopCallback
@@ -1631,11 +1619,6 @@ SWIFT_CLASS_NAMED("Builder")
 
 
 
-
-
-
-
-
 @interface UIColor (SWIFT_EXTENSION(PyrusServiceDesk))
 /// Может принимать в себя HEX в разных форматах и если правильно прописать формат - создастся соответствующий объект UIColor
 /// Что очевидно, можно передавать как 3, так и 4 канальные цвета
@@ -1645,11 +1628,6 @@ SWIFT_CLASS_NAMED("Builder")
 ///
 - (nullable instancetype)initWithHex:(NSString * _Nullable)hex;
 @end
-
-
-
-
-
 
 
 

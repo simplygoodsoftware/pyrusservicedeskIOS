@@ -1,12 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PyrusServiceDesk
-import AVFAudio
 import AVFoundation
 import AVKit
-import AudioToolbox
 import Compression
-import CoreAudioKit
 import CoreData
 import DeveloperToolsSupport
 import Foundation
@@ -23,7 +20,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import libopus
 import zlib
 @objc public protocol DeniedAccessCallBack {
   @objc func deleteUsers(userIds: [Swift.String])
@@ -157,12 +153,6 @@ public enum VerticalAlignment {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-public class OpusRecorder {
-  public init()
-  public func start(_ url: Foundation.URL, failure: ((any Swift.Error) -> Swift.Void)? = nil)
-  public func stop()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class PyrusServiceDesk : ObjectiveC.NSObject {

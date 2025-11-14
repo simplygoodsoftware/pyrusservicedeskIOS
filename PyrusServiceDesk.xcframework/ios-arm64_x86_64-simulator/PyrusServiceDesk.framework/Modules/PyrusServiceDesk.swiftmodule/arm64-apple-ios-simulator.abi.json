@@ -3518,13 +3518,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3774,389 +3767,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFAudio",
-        "printedName": "AVFAudio",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "AudioToolbox",
-        "printedName": "AudioToolbox",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreAudioKit",
-        "printedName": "CoreAudioKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "libopus",
-        "printedName": "libopus",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "libopus",
-        "printedName": "libopus",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OpusRecorder",
-        "printedName": "OpusRecorder",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpusRecorder",
-                "printedName": "PyrusServiceDesk.OpusRecorder",
-                "usr": "s:16PyrusServiceDesk12OpusRecorderC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16PyrusServiceDesk12OpusRecorderCACycfc",
-            "mangledName": "$s16PyrusServiceDesk12OpusRecorderCACycfc",
-            "moduleName": "PyrusServiceDesk",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start(_:failure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PyrusServiceDesk12OpusRecorderC5start_7failurey10Foundation3URLV_ys5Error_pcSgtF",
-            "mangledName": "$s16PyrusServiceDesk12OpusRecorderC5start_7failurey10Foundation3URLV_ys5Error_pcSgtF",
-            "moduleName": "PyrusServiceDesk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stop",
-            "printedName": "stop()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PyrusServiceDesk12OpusRecorderC4stopyyF",
-            "mangledName": "$s16PyrusServiceDesk12OpusRecorderC4stopyyF",
-            "moduleName": "PyrusServiceDesk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16PyrusServiceDesk12OpusRecorderC",
-        "mangledName": "$s16PyrusServiceDesk12OpusRecorderC",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "LibVorbis",
-        "printedName": "LibVorbis",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AudioToolbox",
-        "printedName": "AudioToolbox",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AudioToolbox",
-        "printedName": "AudioToolbox",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "libopus",
-        "printedName": "libopus",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "PyrusServiceDeskPrivate",
-        "printedName": "PyrusServiceDeskPrivate",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -6795,16 +6405,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -16149,14 +15749,14 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAttachmentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4783,
+      "offset": 4751,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAttachmentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4789,
+      "offset": 4757,
       "length": 1,
       "value": "0"
     },
@@ -17437,238 +17037,217 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2976,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3278,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3305,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3549,
+      "offset": 3591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3740,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3821,
+      "offset": 3863,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3884,
+      "offset": 3926,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4156,
+      "offset": 4198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4228,
       "length": 4,
       "value": "\"  \""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4193,
+      "offset": 4235,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4404,
       "length": 12,
       "value": "\"arrowsLeft\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4509,
+      "offset": 4551,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4536,
+      "offset": 4578,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 4924,
+      "offset": 4966,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4939,
+      "offset": 4981,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 4944,
+      "offset": 4986,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4977,
+      "offset": 5019,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4982,
+      "offset": 5024,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 5103,
+      "offset": 5145,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5180,
+      "offset": 5222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5228,
+      "offset": 5270,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5283,
+      "offset": 5325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5342,
+      "offset": 5384,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5435,
+      "offset": 5477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5490,
+      "offset": 5532,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 5673,
+      "offset": 5715,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5754,
+      "offset": 5796,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5802,
+      "offset": 5844,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5858,
+      "offset": 5900,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5912,
+      "offset": 5954,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6005,
+      "offset": 6047,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4671,
+      "offset": 4713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12866,
+      "offset": 12952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 18073,
+      "offset": 18209,
       "length": 4,
       "value": "36.0"
     },
@@ -18536,91 +18115,91 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 22234,
+      "offset": 22236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 33913,
+      "offset": 33915,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 33990,
+      "offset": 33992,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34063,
+      "offset": 34065,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34139,
+      "offset": 34141,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34141,
+      "offset": 34143,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34144,
+      "offset": 34146,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34147,
+      "offset": 34149,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34219,
+      "offset": 34221,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34291,
+      "offset": 34293,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34362,
+      "offset": 34364,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34434,
+      "offset": 34436,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 34486,
+      "offset": 34488,
       "length": 21,
       "value": "\"PSDLastActivityDate\""
     },
@@ -19703,314 +19282,6 @@
       "value": "16"
     },
     {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 139,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 177,
-      "length": 11,
-      "value": "\"Uploading\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 344,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 386,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 481,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 697,
-      "length": 4,
-      "value": "0.15"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1033,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1179,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1221,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1234,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 7,
-      "value": "\"--:--\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1401,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 1472,
-      "length": 7,
-      "value": "\"pause\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1621,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2069,
-      "length": 10,
-      "value": "\"playIcon\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2229,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2352,
-      "length": 10,
-      "value": "\"playIcon\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2504,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2600,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2713,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2726,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 2909,
-      "length": 10,
-      "value": "\"download\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3061,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3308,
-      "length": 8,
-      "value": "\"circle\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 3789,
-      "length": 12,
-      "value": "\"darkCircle\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 4785,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4930,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4990,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5119,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5322,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5394,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5521,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5838,
-      "length": 4,
-      "value": "0.15"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11508,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13950,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14022,
-      "length": 4,
-      "value": "14.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 14200,
-      "length": 9,
-      "value": "\"#7182FD\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14290,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 14487,
-      "length": 11,
-      "value": "\"#FFFFFF4D\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14520,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "StringLiteral",
-      "offset": 14584,
-      "length": 11,
-      "value": "\"#0000001A\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDAudioAttachmentView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14617,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LoadAttachments\/PSDAttachmentPreviewErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 1383,
@@ -20177,1294 +19448,6 @@
       "offset": 1160,
       "length": 18,
       "value": "\"AttachPlayerCell\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Session.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2132,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Session.swift",
-      "kind": "StringLiteral",
-      "offset": 2162,
-      "length": 20,
-      "value": "\"org.opus-codec.org\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Session.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3963,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 800,
-      "length": 4,
-      "value": "3600"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 862,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 866,
-      "length": 10,
-      "value": "1000000000"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 1022,
-      "length": 22,
-      "value": "\"Audio : start record\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "FloatLiteral",
-      "offset": 4069,
-      "length": 3,
-      "value": "1.7"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 5457,
-      "length": 12,
-      "value": "\"Recording_\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
-      "length": 20,
-      "value": "\"PyrusServiceDesk.AudioRecordPresenter\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 146,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 24,
-      "value": "\"opusPlayerNotification\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 323,
-      "length": 20,
-      "value": "\"attachmentIdToStop\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 423,
-      "length": 20,
-      "value": "\"attachmentIdToPlay\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 14,
-      "value": "\"playProgress\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "Dictionary",
-      "offset": 696,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 917,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 954,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 996,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1288,
-      "length": 5,
-      "value": "48000"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1339,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1438,
-      "length": 20,
-      "value": "\"Audio : start play\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1509,
-      "length": 39,
-      "value": "\"Audio : Error: Can't open OggOpusFile\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6397,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8618,
-      "length": 4,
-      "value": "4096"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/OpusPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11148,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusRecorder.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 20,
-      "value": "\"org.opus-codec.org\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusRecorder.swift",
-      "kind": "FloatLiteral",
-      "offset": 2374,
-      "length": 5,
-      "value": "0.025"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 183,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 183,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 762,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 806,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/AudioPlayerPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 625,
-      "length": 20,
-      "value": "\"PyrusServiceDesk.AudioPlayerPresenter\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "FloatLiteral",
-      "offset": 1601,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "FloatLiteral",
-      "offset": 1711,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2507,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2565,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2569,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2619,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Play\/CircularProgress.swift",
-      "kind": "StringLiteral",
-      "offset": 24,
-      "length": 16,
-      "value": "\"PyrusServiceDesk.CircularProgress\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 635,
-      "length": 4,
-      "value": "0.20"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 781,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 831,
-      "length": 4,
-      "value": "50.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 869,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 937,
-      "length": 4,
-      "value": "0.07"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 996,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1056,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 1125,
-      "length": 15,
-      "value": "\"bigMicrophone\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 1977,
-      "length": 7,
-      "value": "\"micro\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2180,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2310,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2334,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2376,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2533,
-      "length": 11,
-      "value": "\"lockAudio\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2667,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2699,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2857,
-      "length": 8,
-      "value": "\"arrows\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2988,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3020,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3413,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3542,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3619,
-      "length": 2,
-      "value": "88"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3669,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3718,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3887,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 4575,
-      "length": 8,
-      "value": "\"arrows\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4676,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4732,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4772,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4812,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4866,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4913,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3156,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordButton.swift",
-      "kind": "StringLiteral",
-      "offset": 15632,
-      "length": 9,
-      "value": "\"#3D4043\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 373,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3776,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3835,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3917,
-      "length": 12,
-      "value": "0.7233663201"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3938,
-      "length": 12,
-      "value": "0.7233663201"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3958,
-      "length": 12,
-      "value": "0.7233663201"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3979,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5319,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5392,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "StringLiteral",
-      "offset": 5733,
-      "length": 11,
-      "value": "\"ic_remove\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6002,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6094,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6186,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6453,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6594,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "StringLiteral",
-      "offset": 6762,
-      "length": 19,
-      "value": "\"triangle_dark.png\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6934,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7030,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7127,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 11671,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11859,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12230,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12259,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12283,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12341,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13149,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13170,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13190,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13211,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13309,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13319,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13328,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13338,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13372,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13393,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13413,
-      "length": 12,
-      "value": "0.1019607843"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/BubleTextView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13434,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1221,
-      "length": 5,
-      "value": "16000"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1774,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2623,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2668,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3386,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6907,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/Recorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6922,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/RecordableView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 57,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/RecordableView.swift",
-      "kind": "FloatLiteral",
-      "offset": 106,
-      "length": 4,
-      "value": "15.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 11,
-      "value": "\"lockAudio\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 235,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 8,
-      "value": "\"arrows\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 498,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 530,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 725,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 796,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 800,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 866,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 870,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 943,
-      "length": 2,
-      "value": "88"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 948,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/LockRecordView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 659,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordingObject.swift",
-      "kind": "FloatLiteral",
-      "offset": 1199,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordingObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1245,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordingObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3299,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/AudioRecordingObject.swift",
-      "kind": "FloatLiteral",
-      "offset": 3759,
-      "length": 4,
-      "value": "15.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 691,
-      "length": 4,
-      "value": "45.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 737,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 840,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 853,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 922,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 933,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 983,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1034,
-      "length": 4,
-      "value": "0.20"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1209,
-      "length": 4,
-      "value": "0.14"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1378,
-      "length": 4,
-      "value": "0.20"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1435,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1484,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1529,
-      "length": 4,
-      "value": "0.05"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1659,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1810,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 2021,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "Array",
-      "offset": 4994,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5508,
-      "length": 4,
-      "value": "25.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5557,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5609,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6269,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "StringLiteral",
-      "offset": 602,
-      "length": 15,
-      "value": "\"PyrusServiceDesk.VoiceRecordView\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/VoiceRecordView.swift",
-      "kind": "StringLiteral",
-      "offset": 602,
-      "length": 15,
-      "value": "\"PyrusServiceDesk.VoiceRecordView\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1965,
-      "length": 4,
-      "value": "3832"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10891,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17679,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17699,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17722,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17679,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17699,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17722,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17679,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17699,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/VoiceMessages\/Record\/OpusEncoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17722,
-      "length": 3,
-      "value": "255"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDSpinerTableView.swift",
@@ -22337,98 +20320,98 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 3341,
+      "offset": 3353,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3392,
+      "offset": 3404,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3440,
+      "offset": 3452,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3471,
+      "offset": 3483,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 3523,
+      "offset": 3535,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6958,
+      "offset": 7008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 7181,
+      "offset": 7231,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 7237,
+      "offset": 7287,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7466,
+      "offset": 7516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7498,
+      "offset": 7548,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 8173,
+      "offset": 8223,
       "length": 20,
       "value": "\"messagePlaceholder\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 8703,
+      "offset": 8753,
       "length": 13,
       "value": "\"dotted_line\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17055,
+      "offset": 17105,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 17131,
+      "offset": 17181,
       "length": 4,
       "value": "18.0"
     },
@@ -27933,209 +25916,6 @@
       "offset": 36273,
       "length": 9,
       "value": "\"#60666C\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "FloatLiteral",
-      "offset": 288,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 326,
-      "length": 11,
-      "value": "\"Uploading\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 444,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 493,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "FloatLiteral",
-      "offset": 535,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 914,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 985,
-      "length": 7,
-      "value": "\"pause\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 1160,
-      "length": 10,
-      "value": "\"playIcon\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 1316,
-      "length": 10,
-      "value": "\"playIcon\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1438,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1451,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1522,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 1715,
-      "length": 10,
-      "value": "\"playIcon\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1859,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1919,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 2132,
-      "length": 7,
-      "value": "\"00:00\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2181,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 2870,
-      "length": 12,
-      "value": "\"darkCircle\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6503,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7794,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7866,
-      "length": 4,
-      "value": "14.0"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8037,
-      "length": 9,
-      "value": "\"#BFBFBF\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8107,
-      "length": 9,
-      "value": "\"#666666\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8285,
-      "length": 9,
-      "value": "\"#BFBFBF\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "FloatLiteral",
-      "offset": 8316,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8380,
-      "length": 9,
-      "value": "\"#D9D9D9\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8568,
-      "length": 9,
-      "value": "\"#515254\""
-    },
-    {
-      "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/AudioInputView.swift",
-      "kind": "StringLiteral",
-      "offset": 8638,
-      "length": 9,
-      "value": "\"#F3F2F8\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/applicationColors.swift",
