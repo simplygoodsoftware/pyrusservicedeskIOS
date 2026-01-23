@@ -429,6 +429,7 @@ SWIFT_CLASS_NAMED("DBMessage")
 @property (nonatomic) BOOL fromStorage;
 @property (nonatomic) BOOL isOutgoing;
 @property (nonatomic) BOOL isRatingMessage;
+@property (nonatomic) BOOL isSystem;
 @property (nonatomic) BOOL isWelcomeMessage;
 @property (nonatomic, copy) NSString * _Nullable messageId;
 @property (nonatomic) int32_t rating;

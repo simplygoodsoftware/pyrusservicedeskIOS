@@ -596,6 +596,10 @@ extension DBMessage {
     @objc get
     @objc set
   }
+  @objc @NSManaged nonisolated dynamic public var isSystem: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged nonisolated dynamic public var isWelcomeMessage: Swift.Bool {
     @objc get
     @objc set
