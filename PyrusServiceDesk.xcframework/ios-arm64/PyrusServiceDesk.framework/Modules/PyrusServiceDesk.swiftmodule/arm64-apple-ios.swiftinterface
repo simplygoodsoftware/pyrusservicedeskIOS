@@ -622,6 +622,10 @@ extension DBMessage {
     @objc get
     @objc set
   }
+  @objc @NSManaged nonisolated dynamic public var systemCommentType: Swift.Int16 {
+    @objc get
+    @objc set
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   @objc @NSManaged nonisolated dynamic public var text: Swift.String? {
     @objc get

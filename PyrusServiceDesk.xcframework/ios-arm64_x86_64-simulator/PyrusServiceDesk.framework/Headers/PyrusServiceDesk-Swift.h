@@ -435,6 +435,7 @@ SWIFT_CLASS_NAMED("DBMessage")
 @property (nonatomic) int32_t rating;
 @property (nonatomic) BOOL requestNewTicket;
 @property (nonatomic) int16_t state;
+@property (nonatomic) int16_t systemCommentType;
 @property (nonatomic, copy) NSString * _Nullable text;
 @property (nonatomic) int64_t ticketId;
 @property (nonatomic, copy) NSString * _Nullable userId;
@@ -1183,6 +1184,7 @@ SWIFT_CLASS_NAMED("DBMessage")
 @property (nonatomic) int32_t rating;
 @property (nonatomic) BOOL requestNewTicket;
 @property (nonatomic) int16_t state;
+@property (nonatomic) int16_t systemCommentType;
 @property (nonatomic, copy) NSString * _Nullable text;
 @property (nonatomic) int64_t ticketId;
 @property (nonatomic, copy) NSString * _Nullable userId;
