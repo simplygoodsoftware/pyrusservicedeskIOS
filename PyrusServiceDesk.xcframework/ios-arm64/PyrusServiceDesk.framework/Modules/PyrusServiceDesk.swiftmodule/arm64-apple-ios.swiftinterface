@@ -6,6 +6,7 @@ import AVFoundation
 import AVKit
 import Compression
 import CoreData
+import CoreFoundation
 import DeveloperToolsSupport
 import Foundation
 import ImageIO
