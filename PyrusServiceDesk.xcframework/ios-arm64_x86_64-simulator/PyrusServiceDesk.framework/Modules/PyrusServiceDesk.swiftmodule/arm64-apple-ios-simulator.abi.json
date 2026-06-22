@@ -2111,6 +2111,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18381,7 +18388,7 @@
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDCopyLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 857,
+      "offset": 1046,
       "length": 5,
       "value": "false"
     },
@@ -20875,7 +20882,7 @@
       "kind": "StringLiteral",
       "offset": 476,
       "length": 8,
-      "value": "\"3.0.60\""
+      "value": "\"3.0.61\""
     },
     {
       "filePath": "\/Users\/stanislavabobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PyrusServiceDeskCreator.swift",
