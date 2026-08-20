@@ -7,5 +7,4 @@ framework module PyrusServiceDesk {
 
 module PyrusServiceDesk.Swift {
   header "PyrusServiceDesk-Swift.h"
-  requires objc
 }
