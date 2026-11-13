@@ -163,11 +163,11 @@ extension PyrusServiceDesk {
     set
   }
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class BlurBackdropView : UIKit.UIView {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PSDBlurBackdropView : UIKit.UIView {
   public enum FadeEdge {
     case top
     case bottom
-    public static func == (a: BlurBackdropView.FadeEdge, b: BlurBackdropView.FadeEdge) -> Swift.Bool
+    public static func == (a: PSDBlurBackdropView.FadeEdge, b: PSDBlurBackdropView.FadeEdge) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -179,7 +179,7 @@ extension PyrusServiceDesk {
     get
     set
   }
-  @_Concurrency.MainActor @preconcurrency public init(fadeEdge: BlurBackdropView.FadeEdge, blurIntensity: CoreFoundation.CGFloat = BlurBackdropView.defaultBlurIntensity, dimColor: UIKit.UIColor = BlurBackdropView.defaultDimColor)
+  @_Concurrency.MainActor @preconcurrency public init(fadeEdge: PSDBlurBackdropView.FadeEdge, blurIntensity: CoreFoundation.CGFloat = PSDBlurBackdropView.defaultBlurIntensity, dimColor: UIKit.UIColor = PSDBlurBackdropView.defaultDimColor)
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency @objc override final public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
@@ -621,5 +621,5 @@ extension HorizontalAlignment : Swift.Equatable {}
 extension HorizontalAlignment : Swift.Hashable {}
 extension VerticalAlignment : Swift.Equatable {}
 extension VerticalAlignment : Swift.Hashable {}
-extension BlurBackdropView.FadeEdge : Swift.Equatable {}
-extension BlurBackdropView.FadeEdge : Swift.Hashable {}
+extension PSDBlurBackdropView.FadeEdge : Swift.Equatable {}
+extension PSDBlurBackdropView.FadeEdge : Swift.Hashable {}

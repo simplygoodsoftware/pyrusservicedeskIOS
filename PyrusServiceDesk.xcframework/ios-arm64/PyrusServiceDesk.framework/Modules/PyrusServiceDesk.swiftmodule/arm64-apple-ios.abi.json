@@ -4182,8 +4182,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BlurBackdropView",
-        "printedName": "BlurBackdropView",
+        "name": "PSDBlurBackdropView",
+        "printedName": "PSDBlurBackdropView",
         "children": [
           {
             "kind": "TypeDecl",
@@ -4198,24 +4198,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(PyrusServiceDesk.BlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "printedName": "(PyrusServiceDesk.PSDBlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FadeEdge",
-                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                        "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                        "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                        "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge.Type",
+                        "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "FadeEdge",
-                            "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                            "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                           }
                         ]
                       }
@@ -4223,8 +4223,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO3topyA2EmF",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO3topyA2EmF",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO3topyA2EmF",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO3topyA2EmF",
                 "moduleName": "PyrusServiceDesk"
               },
               {
@@ -4235,24 +4235,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(PyrusServiceDesk.BlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "printedName": "(PyrusServiceDesk.PSDBlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FadeEdge",
-                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                        "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                        "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                        "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge.Type",
+                        "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "FadeEdge",
-                            "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                            "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                           }
                         ]
                       }
@@ -4260,8 +4260,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
                 "moduleName": "PyrusServiceDesk"
               },
               {
@@ -4278,19 +4278,19 @@
                   {
                     "kind": "TypeNominal",
                     "name": "FadeEdge",
-                    "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                    "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                    "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "FadeEdge",
-                    "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                    "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                    "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
                 "moduleName": "PyrusServiceDesk",
                 "static": true,
                 "implicit": true,
@@ -4309,8 +4309,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivp",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivp",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO9hashValueSivp",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO9hashValueSivp",
                 "moduleName": "PyrusServiceDesk",
                 "implicit": true,
                 "accessors": [
@@ -4327,8 +4327,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivg",
-                    "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivg",
+                    "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO9hashValueSivg",
+                    "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO9hashValueSivg",
                     "moduleName": "PyrusServiceDesk",
                     "implicit": true,
                     "accessorKind": "get"
@@ -4354,16 +4354,16 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
                 "moduleName": "PyrusServiceDesk",
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
-            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO",
+            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO",
             "moduleName": "PyrusServiceDesk",
             "declAttributes": [
               "AccessControl",
@@ -4413,8 +4413,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity14CoreFoundation7CGFloatVvpZ",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity12CoreGraphics7CGFloatVvpZ",
+            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC20defaultBlurIntensity14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC20defaultBlurIntensity12CoreGraphics7CGFloatVvpZ",
             "moduleName": "PyrusServiceDesk",
             "static": true,
             "declAttributes": [
@@ -4442,8 +4442,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity14CoreFoundation7CGFloatVvgZ",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity12CoreGraphics7CGFloatVvgZ",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC20defaultBlurIntensity14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC20defaultBlurIntensity12CoreGraphics7CGFloatVvgZ",
                 "moduleName": "PyrusServiceDesk",
                 "static": true,
                 "implicit": true,
@@ -4467,8 +4467,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
+            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
             "moduleName": "PyrusServiceDesk",
             "static": true,
             "declAttributes": [
@@ -4496,8 +4496,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
                 "moduleName": "PyrusServiceDesk",
                 "static": true,
                 "implicit": true,
@@ -4521,8 +4521,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvp",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvp",
+            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvp",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvp",
             "moduleName": "PyrusServiceDesk",
             "declAttributes": [
               "Final",
@@ -4547,8 +4547,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvg",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvg",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvg",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvg",
                 "moduleName": "PyrusServiceDesk",
                 "implicit": true,
                 "declAttributes": [
@@ -4574,8 +4574,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvs",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvs",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvs",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvs",
                 "moduleName": "PyrusServiceDesk",
                 "implicit": true,
                 "declAttributes": [
@@ -4595,8 +4595,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvM",
-                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvM",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvM",
+                "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8dimColorSo7UIColorCvM",
                 "moduleName": "PyrusServiceDesk",
                 "implicit": true,
                 "declAttributes": [
@@ -4613,15 +4613,15 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BlurBackdropView",
-                "printedName": "PyrusServiceDesk.BlurBackdropView",
-                "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView"
+                "name": "PSDBlurBackdropView",
+                "printedName": "PyrusServiceDesk.PSDBlurBackdropView",
+                "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView"
               },
               {
                 "kind": "TypeNominal",
                 "name": "FadeEdge",
-                "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
-                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                "printedName": "PyrusServiceDesk.PSDBlurBackdropView.FadeEdge",
+                "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8FadeEdgeO"
               },
               {
                 "kind": "TypeNominal",
@@ -4639,8 +4639,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_14CoreFoundation7CGFloatVSo7UIColorCtcfc",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_12CoreGraphics7CGFloatVSo7UIColorCtcfc",
+            "usr": "s:16PyrusServiceDesk19PSDBlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_14CoreFoundation7CGFloatVSo7UIColorCtcfc",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_12CoreGraphics7CGFloatVSo7UIColorCtcfc",
             "moduleName": "PyrusServiceDesk",
             "declAttributes": [
               "Preconcurrency",
@@ -4661,8 +4661,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)didMoveToWindow",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15didMoveToWindowyyF",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView(im)didMoveToWindow",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC15didMoveToWindowyyF",
             "moduleName": "PyrusServiceDesk",
             "overriding": true,
             "objc_name": "didMoveToWindow",
@@ -4702,8 +4702,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)traitCollectionDidChange:",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC24traitCollectionDidChangeyySo07UITraitH0CSgF",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView(im)traitCollectionDidChange:",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC24traitCollectionDidChangeyySo07UITraitH0CSgF",
             "moduleName": "PyrusServiceDesk",
             "overriding": true,
             "objc_name": "traitCollectionDidChange:",
@@ -4729,8 +4729,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)layoutSubviews",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC14layoutSubviewsyyF",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView(im)layoutSubviews",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC14layoutSubviewsyyF",
             "moduleName": "PyrusServiceDesk",
             "overriding": true,
             "objc_name": "layoutSubviews",
@@ -4751,9 +4751,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BlurBackdropView",
-                "printedName": "PyrusServiceDesk.BlurBackdropView",
-                "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView"
+                "name": "PSDBlurBackdropView",
+                "printedName": "PyrusServiceDesk.PSDBlurBackdropView",
+                "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView"
               },
               {
                 "kind": "TypeNominal",
@@ -4763,8 +4763,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)initWithFrame:",
-            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC5frameACSo6CGRectV_tcfc",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView(im)initWithFrame:",
+            "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC5frameACSo6CGRectV_tcfc",
             "moduleName": "PyrusServiceDesk",
             "overriding": true,
             "implicit": true,
@@ -4780,8 +4780,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView",
-        "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC",
+        "usr": "c:@M@PyrusServiceDesk@objc(cs)PSDBlurBackdropView",
+        "mangledName": "$s16PyrusServiceDesk19PSDBlurBackdropViewC",
         "moduleName": "PyrusServiceDesk",
         "declAttributes": [
           "Preconcurrency",
@@ -18674,217 +18674,217 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12950,
+      "offset": 12953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 13099,
+      "offset": 13102,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 13222,
+      "offset": 13225,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13285,
+      "offset": 13288,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13557,
+      "offset": 13560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 13587,
+      "offset": 13590,
       "length": 4,
       "value": "\"  \""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 13594,
+      "offset": 13597,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 13763,
+      "offset": 13766,
       "length": 12,
       "value": "\"arrowsLeft\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13910,
+      "offset": 13913,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13937,
+      "offset": 13940,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 14325,
+      "offset": 14328,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14340,
+      "offset": 14343,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 14345,
+      "offset": 14348,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14378,
+      "offset": 14381,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14383,
+      "offset": 14386,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 14504,
+      "offset": 14507,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14581,
+      "offset": 14584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14629,
+      "offset": 14632,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14684,
+      "offset": 14687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14743,
+      "offset": 14746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14836,
+      "offset": 14839,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14891,
+      "offset": 14894,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 15074,
+      "offset": 15077,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15155,
+      "offset": 15158,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15203,
+      "offset": 15206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15259,
+      "offset": 15262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15313,
+      "offset": 15316,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15406,
+      "offset": 15409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14072,
+      "offset": 14075,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 25739,
+      "offset": 25742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 31194,
+      "offset": 31197,
       "length": 4,
       "value": "36.0"
     },
@@ -21978,56 +21978,56 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "FloatLiteral",
-      "offset": 989,
+      "offset": 992,
       "length": 4,
       "value": "0.08"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2392,
+      "offset": 2395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2548,
+      "offset": 2551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3433,
+      "offset": 3436,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "FloatLiteral",
-      "offset": 10253,
+      "offset": 10265,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10510,
+      "offset": 10522,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "FloatLiteral",
-      "offset": 10674,
+      "offset": 10686,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
       "kind": "FloatLiteral",
-      "offset": 10798,
+      "offset": 10810,
       "length": 4,
       "value": "0.45"
     },
@@ -28173,91 +28173,91 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6105,
+      "offset": 6108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6143,
+      "offset": 6146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6339,
+      "offset": 6342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9481,
+      "offset": 9484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33429,
+      "offset": 33432,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33435,
+      "offset": 33438,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33573,
+      "offset": 33576,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34687,
+      "offset": 34690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34718,
+      "offset": 34721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44514,
+      "offset": 44517,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 44805,
+      "offset": 44808,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44975,
+      "offset": 44978,
       "length": 11,
       "value": "\"#FFFFFFE5\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 45047,
+      "offset": 45050,
       "length": 9,
       "value": "\"#60666C\""
     },
