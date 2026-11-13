@@ -735,13 +735,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PyrusServiceDesk"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2941,6 +2934,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3301,6 +3301,13 @@
             "mangledName": "$ss8CopyableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
       },
       {
         "kind": "Import",
@@ -4116,6 +4123,774 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PyrusServiceDesk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BlurBackdropView",
+        "printedName": "BlurBackdropView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "FadeEdge",
+            "printedName": "FadeEdge",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "top",
+                "printedName": "top",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PyrusServiceDesk.BlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FadeEdge",
+                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                        "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FadeEdge",
+                            "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO3topyA2EmF",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO3topyA2EmF",
+                "moduleName": "PyrusServiceDesk"
+              },
+              {
+                "kind": "Var",
+                "name": "bottom",
+                "printedName": "bottom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PyrusServiceDesk.BlurBackdropView.FadeEdge.Type) -> PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FadeEdge",
+                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                        "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FadeEdge",
+                            "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO6bottomyA2EmF",
+                "moduleName": "PyrusServiceDesk"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FadeEdge",
+                    "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FadeEdge",
+                    "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO2eeoiySbAE_AEtFZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivp",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivp",
+                "moduleName": "PyrusServiceDesk",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivg",
+                    "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO9hashValueSivg",
+                    "moduleName": "PyrusServiceDesk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO4hash4intoys6HasherVz_tF",
+                "moduleName": "PyrusServiceDesk",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO",
+            "moduleName": "PyrusServiceDesk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultBlurIntensity",
+            "printedName": "defaultBlurIntensity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "PyrusServiceDesk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC07defaultD9Intensity12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultDimColor",
+            "printedName": "defaultDimColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvpZ",
+            "moduleName": "PyrusServiceDesk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15defaultDimColorSo7UIColorCvgZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dimColor",
+            "printedName": "dimColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvp",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvp",
+            "moduleName": "PyrusServiceDesk",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvg",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvg",
+                "moduleName": "PyrusServiceDesk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvs",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvs",
+                "moduleName": "PyrusServiceDesk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvM",
+                "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8dimColorSo7UIColorCvM",
+                "moduleName": "PyrusServiceDesk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fadeEdge:blurIntensity:dimColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BlurBackdropView",
+                "printedName": "PyrusServiceDesk.BlurBackdropView",
+                "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FadeEdge",
+                "printedName": "PyrusServiceDesk.BlurBackdropView.FadeEdge",
+                "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8FadeEdgeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PyrusServiceDesk16BlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_14CoreFoundation7CGFloatVSo7UIColorCtcfc",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC8fadeEdge13blurIntensity8dimColorA2C04FadeH0O_12CoreGraphics7CGFloatVSo7UIColorCtcfc",
+            "moduleName": "PyrusServiceDesk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)didMoveToWindow",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC15didMoveToWindowyyF",
+            "moduleName": "PyrusServiceDesk",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)traitCollectionDidChange:",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC24traitCollectionDidChangeyySo07UITraitH0CSgF",
+            "moduleName": "PyrusServiceDesk",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)layoutSubviews",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC14layoutSubviewsyyF",
+            "moduleName": "PyrusServiceDesk",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BlurBackdropView",
+                "printedName": "PyrusServiceDesk.BlurBackdropView",
+                "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView(im)initWithFrame:",
+            "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "PyrusServiceDesk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PyrusServiceDesk@objc(cs)BlurBackdropView",
+        "mangledName": "$s16PyrusServiceDesk16BlurBackdropViewC",
+        "moduleName": "PyrusServiceDesk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -6029,6 +6804,105 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "liquidGlass",
+            "printedName": "liquidGlass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PyrusServiceDeskAAC11liquidGlassSbvpZ",
+            "mangledName": "$s16PyrusServiceDeskAAC11liquidGlassSbvpZ",
+            "moduleName": "PyrusServiceDesk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDeskAAC11liquidGlassSbvgZ",
+                "mangledName": "$s16PyrusServiceDeskAAC11liquidGlassSbvgZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDeskAAC11liquidGlassSbvsZ",
+                "mangledName": "$s16PyrusServiceDeskAAC11liquidGlassSbvsZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PyrusServiceDeskAAC11liquidGlassSbvMZ",
+                "mangledName": "$s16PyrusServiceDeskAAC11liquidGlassSbvMZ",
+                "moduleName": "PyrusServiceDesk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -17093,49 +17967,56 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "FloatLiteral",
-      "offset": 657,
+      "offset": 740,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 900,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "FloatLiteral",
-      "offset": 708,
+      "offset": 951,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 992,
       "length": 10,
       "value": "\"CellUser\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 1042,
       "length": 13,
       "value": "\"CellSupport\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1422,
+      "offset": 1665,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9000,
+      "offset": 10024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/PSDChatTableView.swift",
       "kind": "FloatLiteral",
-      "offset": 23668,
+      "offset": 25025,
       "length": 4,
       "value": "16.0"
     },
@@ -17534,378 +18415,476 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LoadAttachments\/PSDAttachmentLoadViewController.swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 397,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LoadAttachments\/PSDAttachmentLoadViewController.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 532,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LoadAttachments\/PSDAttachmentLoadViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 669,
+      "offset": 668,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 337,
+      "offset": 522,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 376,
+      "offset": 561,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 515,
+      "offset": 700,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 754,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 631,
+      "offset": 816,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1265,
+      "offset": 1450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 1424,
+      "offset": 2603,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1470,
+      "offset": 2649,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 2712,
       "length": 23,
       "value": "\"PleaseEvaluateQuality\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1630,
+      "offset": 2809,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 1826,
+      "offset": 3005,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1872,
+      "offset": 3051,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 1935,
+      "offset": 3114,
       "length": 23,
       "value": "\"PleaseEvaluateQuality\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2032,
+      "offset": 3211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2281,
+      "offset": 3460,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2317,
+      "offset": 3496,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2348,
+      "offset": 3527,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2381,
+      "offset": 3560,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2429,
+      "offset": 3608,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2465,
+      "offset": 3644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4936,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5060,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5186,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5318,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5450,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6185,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6353,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6914,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3582,
+      "offset": 7090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7661,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7824,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3731,
+      "offset": 8306,
+      "length": 5,
+      "value": "\"mic\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12950,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
+      "kind": "StringLiteral",
+      "offset": 13099,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3854,
+      "offset": 13222,
       "length": 13,
       "value": "\"deleteAudio\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3917,
+      "offset": 13285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4189,
+      "offset": 13557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4219,
+      "offset": 13587,
       "length": 4,
       "value": "\"  \""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 13594,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4395,
+      "offset": 13763,
       "length": 12,
       "value": "\"arrowsLeft\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4542,
+      "offset": 13910,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4569,
+      "offset": 13937,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 4957,
+      "offset": 14325,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4972,
+      "offset": 14340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 4977,
+      "offset": 14345,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5010,
+      "offset": 14378,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5015,
+      "offset": 14383,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 5136,
+      "offset": 14504,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5213,
+      "offset": 14581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5261,
+      "offset": 14629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5316,
+      "offset": 14684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5375,
+      "offset": 14743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5468,
+      "offset": 14836,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5523,
+      "offset": 14891,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "Array",
-      "offset": 5706,
+      "offset": 15074,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5787,
+      "offset": 15155,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5835,
+      "offset": 15203,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5891,
+      "offset": 15259,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5945,
+      "offset": 15313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6038,
+      "offset": 15406,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4704,
+      "offset": 14072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12943,
+      "offset": 25739,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 18200,
+      "offset": 31194,
       "length": 4,
       "value": "36.0"
     },
@@ -18197,6 +19176,34 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDTextRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDTextRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 759,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDTextRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDTextRateView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 964,
+      "length": 2,
+      "value": "24"
+    },
+    {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
       "offset": 344,
@@ -18206,184 +19213,93 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 547,
+      "offset": 1344,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
+      "offset": 1355,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 793,
+      "offset": 1590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 1599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 813,
+      "offset": 1610,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 823,
+      "offset": 1620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1010,
+      "offset": 1807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1276,
+      "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 8290,
       "length": 2,
-      "value": "22"
+      "value": "16"
     },
     {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 729,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 966,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 18,
-      "value": "\"LeaveYourComment\""
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1176,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1431,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1581,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1621,
+      "offset": 8339,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1673,
+      "offset": 8466,
       "length": 2,
-      "value": "14"
+      "value": "28"
     },
     {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2237,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2459,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2809,
+      "offset": 8598,
       "length": 2,
-      "value": "17"
+      "value": "40"
     },
     {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/PSDEmojiRateView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2849,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2910,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3057,
-      "length": 6,
-      "value": "\"Send\""
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3324,
+      "offset": 8780,
       "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3364,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RatingCommentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3425,
-      "length": 5,
-      "value": "false"
+      "value": "12"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/PSDChatTable\/MessageCell\/PSDCopyLabel.swift",
@@ -18484,11 +19400,39 @@
       "value": "\"extra_fields\""
     },
     {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 20,
+      "value": "\"rating_text_values\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
       "kind": "FloatLiteral",
       "offset": 48,
       "length": 3,
-      "value": "0.2"
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
@@ -18521,28 +19465,28 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4676,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4688,
+      "offset": 4718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4898,
+      "offset": 4928,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 5032,
+      "offset": 5062,
       "length": 4,
       "value": "16.0"
     },
@@ -19114,6 +20058,111 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1551,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1609,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1668,
+      "length": 4,
+      "value": "-110"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1721,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1778,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1831,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2275,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2388,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2428,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2518,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatKeyboardHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2568,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/for images\/SupportUserImage.swift",
       "kind": "StringLiteral",
       "offset": 65,
@@ -19385,6 +20434,167 @@
       "offset": 15151,
       "length": 16,
       "value": "\"+0(123)456-789\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 729,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 966,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 18,
+      "value": "\"LeaveYourComment\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1581,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1621,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1673,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2459,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2809,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2849,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3057,
+      "length": 6,
+      "value": "\"Send\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3324,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3364,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3425,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3596,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3646,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3694,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3749,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/RatingComment\/RatingCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3792,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDNoConnectionView.swift",
@@ -19823,7 +21033,7 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LoadAttachments\/PSDAttachmentPreviewView.swift",
       "kind": "BooleanLiteral",
-      "offset": 689,
+      "offset": 688,
       "length": 5,
       "value": "false"
     },
@@ -20117,21 +21327,21 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageSendButton.swift",
       "kind": "FloatLiteral",
-      "offset": 235,
+      "offset": 234,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageSendButton.swift",
       "kind": "FloatLiteral",
-      "offset": 284,
+      "offset": 283,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/PSDMessageSendButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1385,
+      "offset": 2127,
       "length": 4,
       "value": "16.0"
     },
@@ -20159,49 +21369,49 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 778,
+      "offset": 1012,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 1149,
       "length": 6,
       "value": "\"👎\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 984,
+      "offset": 1218,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 991,
+      "offset": 1225,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 840,
+      "offset": 1074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1074,
+      "offset": 1308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/messageInput\/Rating\/RateViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2841,
+      "offset": 3075,
       "length": 2,
       "value": "16"
     },
@@ -20612,6 +21822,216 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDNavigationBlurView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1890,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDNavigationBlurView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2077,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDNavigationBlurView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2382,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDNavigationBlurView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDNavigationBlurView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3048,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PyrusServiceDesk+LiquidGlass.swift.swift",
+      "kind": "BooleanLiteral",
+      "offset": 378,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDLiquidGlassStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 31,
+      "value": "\"UIDesignRequiresCompatibility\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDLiquidGlassStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5568,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDLiquidGlassStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5912,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 627,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 676,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 718,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1386,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1589,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatGlassTitleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2172,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDGlassBackgroundView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDGlassBackgroundView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatNavigationItemFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 18,
+      "value": "\"chevron.backward\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatNavigationItemFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 13,
+      "value": "\"info.circle\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatNavigationItemFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatNavigationItemFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 21,
+      "value": "\"square.and.arrow.up\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/PSDChatNavigationItemFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 893,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 989,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3433,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10253,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10510,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10674,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/LiquidGlass\/BlurBackdropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10798,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/PSDMessagesStorage.swift",
       "kind": "StringLiteral",
       "offset": 58,
@@ -20795,29 +22215,36 @@
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDTableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 939,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDTableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 710,
+      "offset": 1286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDTableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1107,
+      "offset": 1683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDTableView.swift",
       "kind": "FloatLiteral",
-      "offset": 3484,
+      "offset": 4060,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/TableView\/PSDTableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5767,
+      "offset": 6369,
       "length": 3,
       "value": "160"
     },
@@ -21398,7 +22825,7 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Navigation\/PyrusServiceDeskController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5986,
+      "offset": 5985,
       "length": 4,
       "value": "true"
     },
@@ -21650,63 +23077,63 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 11030,
+      "offset": 11001,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 11079,
+      "offset": 11050,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11242,
+      "offset": 11213,
       "length": 11,
       "value": "\"#FFFFFF4D\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 11275,
+      "offset": 11246,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11339,
+      "offset": 11310,
       "length": 11,
       "value": "\"#0000001A\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 11372,
+      "offset": 11343,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11555,
+      "offset": 11526,
       "length": 9,
       "value": "\"#575B5E\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11625,
+      "offset": 11596,
       "length": 9,
       "value": "\"#F3F2F8\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Helpers\/CustomizationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11843,
+      "offset": 11814,
       "length": 9,
       "value": "\"#AAA9AE\""
     },
@@ -21863,34 +23290,6 @@
       "offset": 2404,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 259,
-      "length": 20,
-      "value": "\"rating_text_values\""
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 425,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PSDObjects\/PSDRatingSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 443,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Search\/Interactor\/SearchInteractor.swift",
@@ -26634,245 +28033,231 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1816,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1783,
+      "offset": 1831,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2103,
+      "offset": 2131,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2165,
+      "offset": 2193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2224,
+      "offset": 2252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2230,
+      "offset": 2258,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2526,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2476,
+      "offset": 3255,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2538,
+      "offset": 3317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2567,
+      "offset": 3346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2709,
+      "offset": 3488,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2846,
+      "offset": 3625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3029,
+      "offset": 3808,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3162,
+      "offset": 3941,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3344,
+      "offset": 4123,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3375,
+      "offset": 4154,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3443,
+      "offset": 4222,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3872,
+      "offset": 4827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4070,
+      "offset": 5292,
       "length": 13,
       "value": "\"info.circle\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4311,
+      "offset": 6105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4349,
+      "offset": 6143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6124,
+      "offset": 6339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6289,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6340,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6399,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11090,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11134,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13654,
+      "offset": 9481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28588,
+      "offset": 33429,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 33435,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28726,
+      "offset": 33573,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29686,
+      "offset": 34687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29717,
+      "offset": 34718,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39746,
+      "offset": 44514,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 44805,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39915,
+      "offset": 44975,
       "length": 11,
       "value": "\"#FFFFFFE5\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/View\/PSDChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39987,
+      "offset": 45047,
       "length": 9,
       "value": "\"#60666C\""
     },
@@ -27096,119 +28481,126 @@
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3557,
+      "offset": 3561,
+      "length": 13,
+      "value": "\"lgpaperclip\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3702,
       "length": 11,
       "value": "\"lockAudio\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3843,
       "length": 12,
       "value": "\"logoLaunch\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3834,
+      "offset": 3979,
       "length": 9,
       "value": "\"logoSvg\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3963,
+      "offset": 4108,
       "length": 7,
       "value": "\"micro\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4093,
+      "offset": 4238,
       "length": 9,
       "value": "\"name_en\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4225,
+      "offset": 4370,
       "length": 9,
       "value": "\"name_ru\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4507,
       "length": 11,
       "value": "\"paperclip\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4493,
+      "offset": 4638,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4628,
+      "offset": 4773,
       "length": 11,
       "value": "\"pauseIcon\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4765,
+      "offset": 4910,
       "length": 10,
       "value": "\"playIcon\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4917,
+      "offset": 5062,
       "length": 18,
       "value": "\"recordBackground\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5057,
+      "offset": 5202,
       "length": 8,
       "value": "\"search\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5183,
+      "offset": 5328,
       "length": 6,
       "value": "\"send\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5315,
+      "offset": 5460,
       "length": 10,
       "value": "\"sendFill\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5465,
+      "offset": 5610,
       "length": 17,
       "value": "\"smallLogoLaunch\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5612,
+      "offset": 5757,
       "length": 12,
       "value": "\"stopRecord\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/Library\/Developer\/Xcode\/DerivedData\/PyrusServiceDesk-eqjkmgjebpyzygghunazurgiuugu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PyrusServiceDesk\/IntermediateBuildFilesPath\/PyrusServiceDesk.build\/Release-iphonesimulator\/PyrusServiceDesk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5752,
+      "offset": 5897,
       "length": 11,
       "value": "\"whiteSend\""
     }
