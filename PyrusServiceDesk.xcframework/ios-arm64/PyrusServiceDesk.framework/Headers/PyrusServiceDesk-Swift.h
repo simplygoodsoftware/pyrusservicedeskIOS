@@ -609,6 +609,20 @@ SWIFT_PROTOCOL("_TtP16PyrusServiceDesk14OnStopCallback_")
 - (void)onStop;
 @end
 
+@class NSCoder;
+/// Полупрозрачная подложка: лёгкий blur + едва заметное затемнение
+/// контента за ней, плавно затухающие к одному из краёв.
+/// Используется как под шапкой / прозрачным navigation bar (затухание вниз),
+/// так и за полем ввода (затухание вверх). Компонент самодостаточен и не
+/// привязан к конкретному экрану — переиспользуется чат-подобными экранами.
+SWIFT_CLASS("_TtC16PyrusServiceDesk19PSDBlurBackdropView")
+@interface PSDBlurBackdropView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 SWIFT_CLASS("_TtC16PyrusServiceDesk13PSDClientInfo")
 @interface PSDClientInfo : NSObject
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
@@ -616,7 +630,6 @@ SWIFT_CLASS("_TtC16PyrusServiceDesk13PSDClientInfo")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSCoder;
 /// The showed
 SWIFT_CLASS("_TtC16PyrusServiceDesk11PSDInfoView")
 @interface PSDInfoView : UIView

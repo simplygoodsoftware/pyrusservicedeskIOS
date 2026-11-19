@@ -157,6 +157,33 @@ public enum VerticalAlignment {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+extension PyrusServiceDesk {
+  public static var liquidGlass: Swift.Bool {
+    get
+    set
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PSDBlurBackdropView : UIKit.UIView {
+  public enum FadeEdge {
+    case top
+    case bottom
+    public static func == (a: PSDBlurBackdropView.FadeEdge, b: PSDBlurBackdropView.FadeEdge) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public static let defaultBlurIntensity: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public static let defaultDimColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var dimColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public init(fadeEdge: PSDBlurBackdropView.FadeEdge, blurIntensity: CoreFoundation.CGFloat = PSDBlurBackdropView.defaultBlurIntensity, dimColor: UIKit.UIColor = PSDBlurBackdropView.defaultDimColor)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+}
 @_inheritsConvenienceInitializers @objc public class PyrusServiceDesk : ObjectiveC.NSObject {
   public static var PSD_CLOSED_NOTIFICATION_NAME: Swift.String
   public static var trustedUrls: [Swift.String]?
@@ -593,3 +620,5 @@ extension HorizontalAlignment : Swift.Equatable {}
 extension HorizontalAlignment : Swift.Hashable {}
 extension VerticalAlignment : Swift.Equatable {}
 extension VerticalAlignment : Swift.Hashable {}
+extension PSDBlurBackdropView.FadeEdge : Swift.Equatable {}
+extension PSDBlurBackdropView.FadeEdge : Swift.Hashable {}
