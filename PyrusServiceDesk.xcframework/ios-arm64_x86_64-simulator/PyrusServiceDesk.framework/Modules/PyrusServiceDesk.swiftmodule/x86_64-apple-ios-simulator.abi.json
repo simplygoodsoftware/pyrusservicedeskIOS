@@ -18282,78 +18282,85 @@
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 32,
+      "value": "\"operator_response_time_message\""
+    },
+    {
+      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "Array",
-      "offset": 439,
+      "offset": 523,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 13817,
+      "offset": 14211,
       "length": 24,
       "value": "\"CreateMenuNotification\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 13871,
+      "offset": 14265,
       "length": 12,
       "value": "\"comment_id\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 13908,
+      "offset": 14302,
       "length": 11,
       "value": "\"ticket_id\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 13942,
+      "offset": 14336,
       "length": 8,
       "value": "\"rating\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 13974,
+      "offset": 14368,
       "length": 9,
       "value": "\"subject\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 14009,
+      "offset": 14403,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 14049,
+      "offset": 14443,
       "length": 13,
       "value": "\"attachments\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 14083,
+      "offset": 14477,
       "length": 6,
       "value": "\"guid\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 14110,
+      "offset": 14504,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Requests\/PSDGetChats.swift",
       "kind": "StringLiteral",
-      "offset": 14145,
+      "offset": 14539,
       "length": 14,
       "value": "\"extra_fields\""
     },
@@ -18878,140 +18885,126 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 697,
+      "offset": 693,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 910,
+      "offset": 906,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
+      "offset": 1048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1090,
+      "offset": 1086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1218,
+      "offset": 1214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1254,
+      "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1285,
+      "offset": 1281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1318,
+      "offset": 1314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1358,
+      "offset": 1354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1399,
+      "offset": 1395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1483,
+      "offset": 1479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1522,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1568,
+      "offset": 1518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1664,
+      "offset": 1614,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1609,
+      "offset": 1559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 1834,
+      "offset": 1784,
       "length": 27,
       "value": "\"com.psd.tableMatrix.queue\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1884,
+      "offset": 1834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1980,
+      "offset": 1926,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9747,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Chat\/Interactor\/PSDChatInteractor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26379,
+      "offset": 24848,
       "length": 5,
       "value": "false"
     },
@@ -19893,196 +19886,196 @@
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 589,
+      "offset": 645,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "Array",
-      "offset": 770,
+      "offset": 822,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 969,
       "length": 17,
       "value": "\"COMMANDS_RESULT\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1050,
       "length": 18,
       "value": "\"UPDATE_ACCSESSES\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1133,
       "length": 18,
       "value": "\"CONNECTION_ERROR\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1219,
       "length": 15,
       "value": "\"OPERATOR_TIME\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1302,
       "length": 22,
       "value": "\"REMOVE_OPERATOR_TIME\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2033,
+      "offset": 2077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2626,
+      "offset": 2824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16154,
+      "offset": 15342,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16223,
+      "offset": 15411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16270,
+      "offset": 15458,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16316,
+      "offset": 15504,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16320,
+      "offset": 15508,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16420,
+      "offset": 15608,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16491,
+      "offset": 15679,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16494,
+      "offset": 15682,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16559,
+      "offset": 15747,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16562,
+      "offset": 15750,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16630,
+      "offset": 15818,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16632,
+      "offset": 15820,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16635,
+      "offset": 15823,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16638,
+      "offset": 15826,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16704,
+      "offset": 15892,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16770,
+      "offset": 15958,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16835,
+      "offset": 16023,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16901,
+      "offset": 16089,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/Managers\/SyncManager.swift",
       "kind": "StringLiteral",
-      "offset": 16945,
+      "offset": 16133,
       "length": 21,
       "value": "\"PSDLastActivityDate\""
     },
@@ -20910,7 +20903,7 @@
       "kind": "StringLiteral",
       "offset": 476,
       "length": 8,
-      "value": "\"2.3.79\""
+      "value": "\"3.0.63\""
     },
     {
       "filePath": "\/Users\/s.bobruskina\/pyrusservicedesk\/PyrusServiceDeskIOS\/PyrusServiceDesk\/PyrusServiceDeskCreator.swift",
